@@ -1,0 +1,13 @@
+# Mod gây lỗi
+
+progresspeek-1.0.1+1.21.1-neoforge.jar
+sodium-neoforge-0.8.12-beta.1+mc1.21.1.jar
+flerovium-neoforge-1.21.1-1.0.18-all.jar
+statuseffectbars-1.21.1-NeoForge-1.0.2.jar
+smoothswapping-0.9.3.2-1.21.1-neoforge.jar
+ParticleEffects-1.4.0+1.21.1+neoforge.jar
+sodium-extra-neoforge-0.8.7+mc1.21.1.jar
+
+# Mod không dùng nữa
+
+# ...
