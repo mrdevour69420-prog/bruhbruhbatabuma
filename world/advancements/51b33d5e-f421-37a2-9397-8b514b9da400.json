@@ -11322,5 +11322,11 @@
     },
     "done": true
   },
+  "create_enchantment_industry:gone_with_the_foil": {
+    "criteria": {
+      "0": "2026-08-15 12:32:02 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
