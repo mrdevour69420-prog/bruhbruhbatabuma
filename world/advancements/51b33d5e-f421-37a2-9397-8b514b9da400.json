@@ -11286,6 +11286,12 @@
     },
     "done": true
   },
+  "create:frogport": {
+    "criteria": {
+      "0": "2026-08-15 11:12:33 +0000"
+    },
+    "done": true
+  },
   "minersdelight:recipes/food/weird_caviar": {
     "criteria": {
       "has_silverfish_eggs": "2026-08-15 10:43:46 +0000"
