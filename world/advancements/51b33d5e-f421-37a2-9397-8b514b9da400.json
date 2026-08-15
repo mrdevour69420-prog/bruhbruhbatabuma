@@ -11286,9 +11286,15 @@
     },
     "done": true
   },
-  "create_enchantment_industry:probability_spike": {
+  "minersdelight:recipes/food/weird_caviar": {
     "criteria": {
-      "0": "2026-08-15 11:55:14 +0000"
+      "has_silverfish_eggs": "2026-08-15 10:43:46 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/quickfiring_mechanism": {
+    "criteria": {
+      "has_lever": "2026-08-15 11:05:16 +0000"
     },
     "done": true
   },
@@ -11298,9 +11304,9 @@
     },
     "done": true
   },
-  "minersdelight:recipes/food/weird_caviar": {
+  "create:spout": {
     "criteria": {
-      "has_silverfish_eggs": "2026-08-15 10:43:46 +0000"
+      "0": "2026-08-15 11:49:33 +0000"
     },
     "done": true
   },
@@ -11310,15 +11316,9 @@
     },
     "done": true
   },
-  "create:spout": {
+  "create_enchantment_industry:probability_spike": {
     "criteria": {
-      "0": "2026-08-15 11:49:33 +0000"
-    },
-    "done": true
-  },
-  "createbigcannons:recipes/misc/quickfiring_mechanism": {
-    "criteria": {
-      "has_lever": "2026-08-15 11:05:16 +0000"
+      "0": "2026-08-15 11:55:14 +0000"
     },
     "done": true
   },

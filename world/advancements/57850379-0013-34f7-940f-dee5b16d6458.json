@@ -8444,45 +8444,57 @@
     },
     "done": true
   },
-  "create:recipes/decorations/brass_bars_from_ingots_brass_stonecutting": {
+  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_fence_gate": {
     "criteria": {
-      "has_ingots_brass": "2026-08-15 11:25:46 +0000"
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_pressure_plate": {
     "criteria": {
-      "has_glass": "2026-08-15 11:18:40 +0000"
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/elevator_pulley": {
+  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_door": {
     "criteria": {
-      "has_item": "2026-08-15 11:25:46 +0000"
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
     },
     "done": true
   },
-  "supplementaries:recipe/hourglass": {
+  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_trapdoor": {
     "criteria": {
-      "has_item_minecraft_glass_1": "2026-08-15 11:18:40 +0000"
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
     },
     "done": true
   },
-  "create:recipes/decorations/brass_ladder_from_ingots_brass_stonecutting": {
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/blossom_slab": {
     "criteria": {
-      "has_ingots_brass": "2026-08-15 11:25:46 +0000"
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/orange_stained_glass": {
+  "quark:recipes/decorations/world/crafting/woodsets/blossom/blossom_sign": {
     "criteria": {
-      "has_glass": "2026-08-15 11:18:40 +0000"
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/placard": {
+  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_button": {
     "criteria": {
-      "has_item": "2026-08-15 11:25:46 +0000"
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/decorations/world/crafting/woodsets/blossom/blossom_fence": {
+    "criteria": {
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/blossom_stairs": {
+    "criteria": {
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
     },
     "done": true
   },
@@ -8492,45 +8504,81 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/lectern": {
+  "minecraft:recipes/building_blocks/copper_grate_from_copper_block_stonecutting": {
     "criteria": {
-      "has_book": "2026-08-15 11:47:31 +0000"
+      "has_copper_block": "2026-08-15 11:02:32 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/logistics/brass_tunnel": {
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
     "criteria": {
-      "has_item": "2026-08-15 11:25:46 +0000"
+      "has_copper_block": "2026-08-15 11:02:32 +0000"
     },
     "done": true
   },
-  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_fence_gate": {
+  "minecraft:recipes/misc/copper_ingot": {
     "criteria": {
-      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+      "has_copper_block": "2026-08-15 11:02:32 +0000"
     },
     "done": true
   },
-  "mynethersdelight:recipes/misc/crafting/red_loin_on_a_stick": {
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
     "criteria": {
-      "has_hoglin_loin": "2026-08-15 11:36:29 +0000"
+      "has_copper_block": "2026-08-15 11:02:32 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/logistics/brass_funnel": {
+  "minecraft:recipes/building_blocks/cut_copper": {
     "criteria": {
-      "has_item": "2026-08-15 11:25:46 +0000"
+      "has_copper_block": "2026-08-15 11:02:32 +0000"
     },
     "done": true
   },
-  "create:brass": {
+  "minecraft:recipes/building_blocks/chiseled_copper_from_copper_block_stonecutting": {
     "criteria": {
-      "0": "2026-08-15 11:25:46 +0000"
+      "has_copper_block": "2026-08-15 11:02:32 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/comparator": {
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
     "criteria": {
-      "has_quartz": "2026-08-15 11:26:53 +0000"
+      "has_copper_block": "2026-08-15 11:02:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_bulb": {
+    "criteria": {
+      "has_copper_block": "2026-08-15 11:02:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate": {
+    "criteria": {
+      "has_copper_block": "2026-08-15 11:02:32 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2026-08-15 11:04:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-08-15 11:18:40 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/hourglass": {
+    "criteria": {
+      "has_item_minecraft_glass_1": "2026-08-15 11:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-08-15 11:18:40 +0000"
     },
     "done": true
   },
@@ -8546,12 +8594,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/materials/electron_tube": {
-    "criteria": {
-      "has_item": "2026-08-15 11:27:08 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/vertical_framed_glass_from_glass_blocks_colorless_stonecutting": {
     "criteria": {
       "has_glass_blocks_colorless": "2026-08-15 11:18:40 +0000"
@@ -8561,12 +8603,6 @@
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2026-08-15 11:18:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bookshelf": {
-    "criteria": {
-      "has_book": "2026-08-15 11:47:31 +0000"
     },
     "done": true
   },
@@ -8582,81 +8618,15 @@
     },
     "done": true
   },
-  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_pressure_plate": {
-    "criteria": {
-      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/copper_grate_from_copper_block_stonecutting": {
-    "criteria": {
-      "has_copper_block": "2026-08-15 11:02:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2026-08-15 11:18:40 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/brass_hand": {
-    "criteria": {
-      "has_item": "2026-08-15 11:25:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
-    "criteria": {
-      "has_book": "2026-08-15 11:47:31 +0000"
-    },
-    "done": true
-  },
-  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_door": {
-    "criteria": {
-      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
-    "criteria": {
-      "has_copper_block": "2026-08-15 11:02:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2026-08-15 11:18:40 +0000"
-    },
-    "done": true
-  },
-  "mynethersdelight:recipes/food/hoglin_loin_cooking": {
-    "criteria": {
-      "hoglin_loin": "2026-08-15 11:36:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/daylight_detector": {
-    "criteria": {
-      "has_quartz": "2026-08-15 11:26:53 +0000"
-    },
-    "done": true
-  },
-  "mynethersdelight:recipes/misc/crafting/nether_burger": {
-    "criteria": {
-      "has_hoglin_loin": "2026-08-15 11:36:29 +0000"
-    },
-    "done": true
-  },
-  "mynethersdelight:recipes/food/hoglin_loin_from_campfire_cooking": {
-    "criteria": {
-      "hoglin_loin": "2026-08-15 11:36:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/copper_ingot": {
-    "criteria": {
-      "has_copper_block": "2026-08-15 11:02:32 +0000"
     },
     "done": true
   },
@@ -8672,45 +8642,9 @@
     },
     "done": true
   },
-  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_trapdoor": {
-    "criteria": {
-      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/purple_stained_glass": {
     "criteria": {
       "has_glass": "2026-08-15 11:18:40 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/curiosities/peculiar_bell": {
-    "criteria": {
-      "has_item": "2026-08-15 11:25:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
-    "criteria": {
-      "has_copper_block": "2026-08-15 11:02:32 +0000"
-    },
-    "done": true
-  },
-  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/blossom_slab": {
-    "criteria": {
-      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
-    },
-    "done": true
-  },
-  "create_enchantment_industry:recipes/printer": {
-    "criteria": {
-      "brass": "2026-08-15 11:25:46 +0000"
-    },
-    "done": true
-  },
-  "mynethersdelight:recipes/cooking/spicy_hoglin_stew": {
-    "criteria": {
-      "has_any_ingredient": "2026-08-15 11:36:29 +0000"
     },
     "done": true
   },
@@ -8732,87 +8666,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_copper": {
-    "criteria": {
-      "has_copper_block": "2026-08-15 11:02:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/writable_book": {
-    "criteria": {
-      "has_book": "2026-08-15 11:47:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diorite": {
-    "criteria": {
-      "has_quartz": "2026-08-15 11:26:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite": {
-    "criteria": {
-      "has_quartz": "2026-08-15 11:26:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_copper_from_copper_block_stonecutting": {
-    "criteria": {
-      "has_copper_block": "2026-08-15 11:02:32 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
-    "criteria": {
-      "has_diamond_backpack": "2026-08-15 11:04:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
-    "criteria": {
-      "has_copper_block": "2026-08-15 11:02:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_block": {
-    "criteria": {
-      "has_quartz": "2026-08-15 11:26:53 +0000"
-    },
-    "done": true
-  },
   "brick_and_mortar:recipes/kiln_firing/kiln_firing/glass": {
     "criteria": {
       "has_input": "2026-08-15 11:18:40 +0000"
-    },
-    "done": true
-  },
-  "mynethersdelight:recipes/food/hoglin_loin_from_smoking": {
-    "criteria": {
-      "hoglin_loin": "2026-08-15 11:36:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/copper_bulb": {
-    "criteria": {
-      "has_copper_block": "2026-08-15 11:02:32 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/attribute_filter": {
-    "criteria": {
-      "has_item": "2026-08-15 11:25:46 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/brass_block_from_compacting": {
-    "criteria": {
-      "has_item": "2026-08-15 11:25:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/copper_grate": {
-    "criteria": {
-      "has_copper_block": "2026-08-15 11:02:32 +0000"
     },
     "done": true
   },
@@ -8822,33 +8678,9 @@
     },
     "done": true
   },
-  "quark:recipes/decorations/world/crafting/woodsets/blossom/blossom_sign": {
-    "criteria": {
-      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
-    },
-    "done": true
-  },
-  "mynethersdelight:recipes/misc/crafting/blue_tenderloin_steak": {
-    "criteria": {
-      "has_hoglin_loin": "2026-08-15 11:36:29 +0000"
-    },
-    "done": true
-  },
-  "mynethersdelight:recipes/cooking/fried_hoglin_chop": {
-    "criteria": {
-      "has_any_ingredient": "2026-08-15 11:36:29 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/brown_stained_glass": {
     "criteria": {
       "has_glass": "2026-08-15 11:18:40 +0000"
-    },
-    "done": true
-  },
-  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_button": {
-    "criteria": {
-      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
     },
     "done": true
   },
@@ -8864,45 +8696,9 @@
     },
     "done": true
   },
-  "create:recipes/decorations/brass_scaffolding_from_ingots_brass_stonecutting": {
-    "criteria": {
-      "has_ingots_brass": "2026-08-15 11:25:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/observer": {
-    "criteria": {
-      "has_quartz": "2026-08-15 11:26:53 +0000"
-    },
-    "done": true
-  },
-  "quark:recipes/decorations/world/crafting/woodsets/blossom/blossom_fence": {
-    "criteria": {
-      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/brass_nugget_from_decompacting": {
-    "criteria": {
-      "has_item": "2026-08-15 11:25:46 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/rose_quartz_block_from_rose_quartz_stonecutting": {
-    "criteria": {
-      "has_rose_quartz": "2026-08-15 11:27:08 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/tiled_glass_from_glass_blocks_colorless_stonecutting": {
     "criteria": {
       "has_glass_blocks_colorless": "2026-08-15 11:18:40 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/flywheel": {
-    "criteria": {
-      "has_item": "2026-08-15 11:25:46 +0000"
     },
     "done": true
   },
@@ -8912,9 +8708,93 @@
     },
     "done": true
   },
-  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/blossom_stairs": {
+  "create:recipes/decorations/brass_bars_from_ingots_brass_stonecutting": {
     "criteria": {
-      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+      "has_ingots_brass": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/elevator_pulley": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_ladder_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/placard": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/brass_tunnel": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/brass_funnel": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/brass_hand": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/curiosities/peculiar_bell": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/printer": {
+    "criteria": {
+      "brass": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/attribute_filter": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_block_from_compacting": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_scaffolding_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_nugget_from_decompacting": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/flywheel": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
     },
     "done": true
   },
@@ -8924,9 +8804,129 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2026-08-15 11:26:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2026-08-15 11:26:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2026-08-15 11:26:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2026-08-15 11:26:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2026-08-15 11:26:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2026-08-15 11:26:53 +0000"
+    },
+    "done": true
+  },
   "createbigcannons:recipes/misc/proximity_fuze": {
     "criteria": {
       "has_quartz": "2026-08-15 11:26:53 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/electron_tube": {
+    "criteria": {
+      "has_item": "2026-08-15 11:27:08 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/rose_quartz_block_from_rose_quartz_stonecutting": {
+    "criteria": {
+      "has_rose_quartz": "2026-08-15 11:27:08 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/misc/crafting/red_loin_on_a_stick": {
+    "criteria": {
+      "has_hoglin_loin": "2026-08-15 11:36:29 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/food/hoglin_loin_cooking": {
+    "criteria": {
+      "hoglin_loin": "2026-08-15 11:36:29 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/misc/crafting/nether_burger": {
+    "criteria": {
+      "has_hoglin_loin": "2026-08-15 11:36:29 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/food/hoglin_loin_from_campfire_cooking": {
+    "criteria": {
+      "hoglin_loin": "2026-08-15 11:36:29 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/cooking/spicy_hoglin_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-08-15 11:36:29 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/food/hoglin_loin_from_smoking": {
+    "criteria": {
+      "hoglin_loin": "2026-08-15 11:36:29 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/misc/crafting/blue_tenderloin_steak": {
+    "criteria": {
+      "has_hoglin_loin": "2026-08-15 11:36:29 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/cooking/fried_hoglin_chop": {
+    "criteria": {
+      "has_any_ingredient": "2026-08-15 11:36:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2026-08-15 11:47:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2026-08-15 11:47:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2026-08-15 11:47:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2026-08-15 11:47:31 +0000"
     },
     "done": true
   },
