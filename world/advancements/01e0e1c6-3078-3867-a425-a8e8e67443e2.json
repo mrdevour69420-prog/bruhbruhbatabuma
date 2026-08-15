@@ -9595,5 +9595,11 @@
     },
     "done": true
   },
+  "simulated:get_a_grip": {
+    "criteria": {
+      "0": "2026-08-15 11:00:15 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
