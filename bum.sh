@@ -2,7 +2,9 @@
 
 set -e
 
-chmod +x download.sh remove.sh git.sh
+curl -fsSL https://packages.playit.gg/install.sh | bash
+
+chmod +x download.sh remove.sh git.sh playit.sh
 
 ./download.sh -p mod.mrpack -j 67
 
@@ -12,4 +14,9 @@ java -jar installer.jar
 
 chmod +x start.sh
 
+# tách luồng
+
+# luồng 1
 ./start.sh
+# luồng 2
+./playit.sh
