@@ -8949,5 +8949,23 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/decorations/rope_fence_gate": {
+    "criteria": {
+      "has_rope": "2026-08-15 13:42:43 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/rope_fence": {
+    "criteria": {
+      "has_rope": "2026-08-15 13:42:43 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/safety_net": {
+    "criteria": {
+      "has_rope": "2026-08-15 13:42:43 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
