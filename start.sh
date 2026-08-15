@@ -24,6 +24,13 @@ LOG_FIFO="watch_log.fifo"
 MAX_LOG_SIZE=$((5*1024*1024))
 MODS_DIR="mods"
 MODS_EXTRA_DIR="mods-extra"
+
+# ==== PLAYIT: chay playit.sh trong tmux session rieng (moi truong headless,
+# khong co cua so terminal that nen dung tmux de gia lap "cmd khac") ====
+PLAYIT_SCRIPT="playit.sh"
+PLAYIT_SESSION="playit_$$"
+PLAYIT_MODE=""      # "tmux" | "screen" | "bg" | "" (chua/khong chay)
+PLAYIT_BG_PID=""
 # =========================================================
 
 # ==== MODS-EXTRA: symlink *.jar tu mods-extra/ vao mods/ (khong copy/move) ====
@@ -76,6 +83,75 @@ link_extra_mods() {
 link_extra_mods
 echo
 # ==== HET PHAN MODS-EXTRA ====
+
+# ==== Khoi dong playit.sh trong tmux session rieng ====
+launch_playit() {
+    if [ ! -f "./$PLAYIT_SCRIPT" ]; then
+        echo "[PLAYIT] Khong tim thay $PLAYIT_SCRIPT, bo qua."
+        return
+    fi
+    chmod +x "./$PLAYIT_SCRIPT" 2>/dev/null
+
+    if command -v tmux >/dev/null 2>&1; then
+        tmux new-session -d -s "$PLAYIT_SESSION" "bash '$(pwd)/$PLAYIT_SCRIPT'"
+        PLAYIT_MODE="tmux"
+        echo "[PLAYIT] Da khoi dong $PLAYIT_SCRIPT trong tmux session '$PLAYIT_SESSION'."
+        echo "[PLAYIT] Mo mot terminal/tab khac va chay lenh sau de xem log:"
+        echo "         tmux attach -t $PLAYIT_SESSION"
+        echo "[PLAYIT] (Thoat khoi man hinh attach ma KHONG tat playit: bam Ctrl+B roi bam D)"
+    elif command -v screen >/dev/null 2>&1; then
+        screen -dmS "$PLAYIT_SESSION" bash -c "bash '$(pwd)/$PLAYIT_SCRIPT'"
+        PLAYIT_MODE="screen"
+        echo "[PLAYIT] Da khoi dong $PLAYIT_SCRIPT trong screen session '$PLAYIT_SESSION'."
+        echo "[PLAYIT] Mo mot terminal/tab khac va chay lenh sau de xem log:"
+        echo "         screen -r $PLAYIT_SESSION"
+    else
+        echo "[PLAYIT] Khong co tmux/screen tren may nay."
+        echo "[PLAYIT] Chay $PLAYIT_SCRIPT o che do nen, log ghi vao playit_log.txt"
+        : > playit_log.txt
+        nohup ./"$PLAYIT_SCRIPT" >> playit_log.txt 2>&1 &
+        PLAYIT_BG_PID=$!
+        PLAYIT_MODE="bg"
+    fi
+    echo
+}
+
+cleanup_playit() {
+    case "$PLAYIT_MODE" in
+        tmux)
+            if tmux has-session -t "$PLAYIT_SESSION" 2>/dev/null; then
+                echo "Dang dung playit ($PLAYIT_SESSION)..."
+                # Gui Ctrl+C vao session de playit.sh tu chay trap cleanup cua no
+                # (tat playitd dung cach) truoc khi kill han session.
+                tmux send-keys -t "$PLAYIT_SESSION" C-c 2>/dev/null
+                local waited=0
+                while tmux has-session -t "$PLAYIT_SESSION" 2>/dev/null; do
+                    sleep 0.5
+                    waited=$((waited + 1))
+                    [ "$waited" -ge 10 ] && break
+                done
+                tmux kill-session -t "$PLAYIT_SESSION" 2>/dev/null
+            fi
+            ;;
+        screen)
+            if screen -list | grep -q "$PLAYIT_SESSION"; then
+                echo "Dang dung playit ($PLAYIT_SESSION)..."
+                screen -S "$PLAYIT_SESSION" -X stuff $'\003'
+                sleep 2
+                screen -S "$PLAYIT_SESSION" -X quit 2>/dev/null
+            fi
+            ;;
+        bg)
+            if [ -n "$PLAYIT_BG_PID" ] && kill -0 "$PLAYIT_BG_PID" 2>/dev/null; then
+                echo "Dang dung playit (PID $PLAYIT_BG_PID)..."
+                kill -TERM "$PLAYIT_BG_PID" 2>/dev/null
+                sleep 2
+                kill -0 "$PLAYIT_BG_PID" 2>/dev/null && kill -KILL "$PLAYIT_BG_PID" 2>/dev/null
+            fi
+            ;;
+    esac
+}
+# ==== HET PHAN PLAYIT ====
 
 if [ ! -f "$USER_JVM_ARGS_FILE" ]; then
     cat > "$USER_JVM_ARGS_FILE" <<EOF
@@ -207,6 +283,8 @@ cleanup() {
     exec 3>&- 2>/dev/null
     exec 4>&- 2>/dev/null
     rm -f "$FIFO" "$LOG_FIFO" "$LOCK_FILE" "$SERVER_READY_FLAG"
+
+    cleanup_playit
 }
 
 # Ctrl+C / kill: chi lan bam DAU TIEN moi goi cleanup(); cac lan sau CHI tang
@@ -222,6 +300,9 @@ on_interrupt() {
 trap on_interrupt INT TERM
 # Truong hop script ket thuc binh thuong (server tu crash/tu stop qua console)
 trap cleanup EXIT
+
+# Khoi dong playit.sh (chay song song qua tmux/screen/nen) truoc khi start server
+launch_playit
 
 # ==== Khoi dong server, ghi truc tiep ra file, LAY DUNG PID CUA JAVA ====
 : > console_log.txt   # xoa log cu

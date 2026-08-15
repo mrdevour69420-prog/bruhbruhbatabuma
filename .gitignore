@@ -22,6 +22,8 @@ session.lock
 !/remove.sh
 !/start.sh
 
+!/.playit/
+!/.playit/**
 !/server.properties
 !/README.md
 !/remlist.txt
