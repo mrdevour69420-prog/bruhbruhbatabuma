@@ -22,7 +22,60 @@ LOCK_FILE="/tmp/$(basename "$PWD")_backup.lock"
 FIFO="server_input.fifo"
 LOG_FIFO="watch_log.fifo"
 MAX_LOG_SIZE=$((5*1024*1024))
+MODS_DIR="mods"
+MODS_EXTRA_DIR="mods-extra"
 # =========================================================
+
+# ==== MODS-EXTRA: symlink *.jar tu mods-extra/ vao mods/ (khong copy/move) ====
+link_extra_mods() {
+    if [ ! -d "$MODS_EXTRA_DIR" ]; then
+        echo "[MODS] No mods-extra directory found, creating it..."
+        mkdir -p "$MODS_EXTRA_DIR"
+    fi
+
+    mkdir -p "$MODS_DIR"
+
+    echo "[MODS] Loading mods from mods-extra..."
+
+    # 1) Don dep cac symlink hong trong mods/ (tro toi mods-extra nhung file da mat)
+    local link target
+    for link in "$MODS_DIR"/*.jar; do
+        [ -e "$link" ] || [ -L "$link" ] || continue
+        if [ -L "$link" ] && [ ! -e "$link" ]; then
+            target="$(readlink "$link")"
+            case "$target" in
+                *"$MODS_EXTRA_DIR/"*)
+                    echo "[MODS] Removing broken symlink: $(basename "$link")"
+                    rm -f "$link"
+                    ;;
+            esac
+        fi
+    done
+
+    # 2) Tao symlink cho tung *.jar trong mods-extra/
+    local src name dest
+    for src in "$MODS_EXTRA_DIR"/*.jar; do
+        [ -e "$src" ] || continue   # thu muc rong, khong co file khop pattern
+        name="$(basename "$src")"
+        dest="$MODS_DIR/$name"
+
+        if [ -L "$dest" ]; then
+            # da la symlink roi -> giu nguyen, khong tao lai
+            continue
+        elif [ -e "$dest" ]; then
+            # co file THAT trung ten -> khong ghi de, bo qua va bao ro
+            echo "[MODS] Skipped existing file: $name"
+            continue
+        fi
+
+        ln -s "../$MODS_EXTRA_DIR/$name" "$dest"
+        echo "[MODS] Linked: $name"
+    done
+}
+
+link_extra_mods
+echo
+# ==== HET PHAN MODS-EXTRA ====
 
 if [ ! -f "$USER_JVM_ARGS_FILE" ]; then
     cat > "$USER_JVM_ARGS_FILE" <<EOF
