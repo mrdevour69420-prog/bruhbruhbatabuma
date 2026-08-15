@@ -3,10 +3,18 @@
 
 cd "$(dirname "$0")" || exit 1
 
+# ==== Bat job control: moi tien trinh chay nen (&) se co process group RIENG.
+# Nho vay, khi ban bam Ctrl+C tren terminal, tin hieu SIGINT CHI den script nay
+# (khong tu dong bay sang java/tail/watch_log/backup_loop/playit), va viec tat
+# server hoan toan do logic cleanup() ben duoi quyet dinh -> Ctrl+C se luon tat
+# duoc server/script mot cach co the du doan duoc, thay vi bi dua tin hieu vao
+# ca dong roi mac ket / khong phan hoi. ====
+set -m
+
 echo "============================================"
 echo "  Dang khoi dong NeoForge Server..."
 echo "  Log se hien ra o day va luu vao console_log.txt"
-echo "  Nhan Ctrl+C de dung server"
+echo "  Nhan Ctrl+C de dung server (bam lan 2 de force-kill ngay neu can)"
 echo "============================================"
 echo
 
@@ -24,13 +32,6 @@ LOG_FIFO="watch_log.fifo"
 MAX_LOG_SIZE=$((5*1024*1024))
 MODS_DIR="mods"
 MODS_EXTRA_DIR="mods-extra"
-
-# ==== PLAYIT: chay playit.sh trong tmux session rieng (moi truong headless,
-# khong co cua so terminal that nen dung tmux de gia lap "cmd khac") ====
-PLAYIT_SCRIPT="playit.sh"
-PLAYIT_SESSION="playit_$$"
-PLAYIT_MODE=""      # "tmux" | "screen" | "bg" | "" (chua/khong chay)
-PLAYIT_BG_PID=""
 # =========================================================
 
 # ==== MODS-EXTRA: symlink *.jar tu mods-extra/ vao mods/ (khong copy/move) ====
@@ -84,7 +85,7 @@ link_extra_mods
 echo
 # ==== HET PHAN MODS-EXTRA ====
 
-# ==== Khoi dong playit.sh trong tmux session rieng ====
+# ==== Khoi dong playit.sh o che do nen ====
 launch_playit() {
     if [ ! -f "./$PLAYIT_SCRIPT" ]; then
         echo "[PLAYIT] Khong tim thay $PLAYIT_SCRIPT, bo qua."
@@ -92,64 +93,31 @@ launch_playit() {
     fi
     chmod +x "./$PLAYIT_SCRIPT" 2>/dev/null
 
-    if command -v tmux >/dev/null 2>&1; then
-        tmux new-session -d -s "$PLAYIT_SESSION" "bash '$(pwd)/$PLAYIT_SCRIPT'"
-        PLAYIT_MODE="tmux"
-        echo "[PLAYIT] Da khoi dong $PLAYIT_SCRIPT trong tmux session '$PLAYIT_SESSION'."
-        echo "[PLAYIT] Mo mot terminal/tab khac va chay lenh sau de xem log:"
-        echo "         tmux attach -t $PLAYIT_SESSION"
-        echo "[PLAYIT] (Thoat khoi man hinh attach ma KHONG tat playit: bam Ctrl+B roi bam D)"
-    elif command -v screen >/dev/null 2>&1; then
-        screen -dmS "$PLAYIT_SESSION" bash -c "bash '$(pwd)/$PLAYIT_SCRIPT'"
-        PLAYIT_MODE="screen"
-        echo "[PLAYIT] Da khoi dong $PLAYIT_SCRIPT trong screen session '$PLAYIT_SESSION'."
-        echo "[PLAYIT] Mo mot terminal/tab khac va chay lenh sau de xem log:"
-        echo "         screen -r $PLAYIT_SESSION"
-    else
-        echo "[PLAYIT] Khong co tmux/screen tren may nay."
-        echo "[PLAYIT] Chay $PLAYIT_SCRIPT o che do nen, log ghi vao playit_log.txt"
-        : > playit_log.txt
-        nohup ./"$PLAYIT_SCRIPT" >> playit_log.txt 2>&1 &
-        PLAYIT_BG_PID=$!
-        PLAYIT_MODE="bg"
-    fi
+    : > "$PLAYIT_LOG"
+    ./"$PLAYIT_SCRIPT" >> "$PLAYIT_LOG" 2>&1 &
+    PLAYIT_BG_PID=$!
+    echo "[PLAYIT] Da khoi dong $PLAYIT_SCRIPT (PID $PLAYIT_BG_PID)."
+    echo "[PLAYIT] Xem log: mo terminal/tab khac roi chay:  tail -f $PLAYIT_LOG"
     echo
 }
 
 cleanup_playit() {
-    case "$PLAYIT_MODE" in
-        tmux)
-            if tmux has-session -t "$PLAYIT_SESSION" 2>/dev/null; then
-                echo "Dang dung playit ($PLAYIT_SESSION)..."
-                # Gui Ctrl+C vao session de playit.sh tu chay trap cleanup cua no
-                # (tat playitd dung cach) truoc khi kill han session.
-                tmux send-keys -t "$PLAYIT_SESSION" C-c 2>/dev/null
-                local waited=0
-                while tmux has-session -t "$PLAYIT_SESSION" 2>/dev/null; do
-                    sleep 0.5
-                    waited=$((waited + 1))
-                    [ "$waited" -ge 10 ] && break
-                done
-                tmux kill-session -t "$PLAYIT_SESSION" 2>/dev/null
-            fi
-            ;;
-        screen)
-            if screen -list | grep -q "$PLAYIT_SESSION"; then
-                echo "Dang dung playit ($PLAYIT_SESSION)..."
-                screen -S "$PLAYIT_SESSION" -X stuff $'\003'
-                sleep 2
-                screen -S "$PLAYIT_SESSION" -X quit 2>/dev/null
-            fi
-            ;;
-        bg)
-            if [ -n "$PLAYIT_BG_PID" ] && kill -0 "$PLAYIT_BG_PID" 2>/dev/null; then
-                echo "Dang dung playit (PID $PLAYIT_BG_PID)..."
-                kill -TERM "$PLAYIT_BG_PID" 2>/dev/null
-                sleep 2
-                kill -0 "$PLAYIT_BG_PID" 2>/dev/null && kill -KILL "$PLAYIT_BG_PID" 2>/dev/null
-            fi
-            ;;
-    esac
+    [ -z "$PLAYIT_BG_PID" ] && return
+    kill -0 "$PLAYIT_BG_PID" 2>/dev/null || return
+
+    echo "Dang dung playit (PID $PLAYIT_BG_PID)..."
+    # PLAYIT_BG_PID la group leader (nho set -m) -> gui tin hieu ca group de
+    # dam bao playitd (con cua playit.sh) cung duoc dep theo dung trap cua no.
+    kill -TERM -"$PLAYIT_BG_PID" 2>/dev/null
+    local waited=0
+    while kill -0 "$PLAYIT_BG_PID" 2>/dev/null; do
+        sleep 0.5
+        waited=$((waited + 1))
+        [ "$waited" -ge 10 ] && break
+    done
+    if kill -0 "$PLAYIT_BG_PID" 2>/dev/null; then
+        kill -KILL -"$PLAYIT_BG_PID" 2>/dev/null
+    fi
 }
 # ==== HET PHAN PLAYIT ====
 
@@ -218,14 +186,6 @@ backup_loop() {
 watch_log() {
     while IFS= read -r line <&4; do
         echo "$line"
-        if [[ "$line" == *"Domain assigned:"* ]]; then
-            domain=$(echo "$line" | sed -E 's/.*Domain assigned: *([^ ]+).*/\1/')
-            echo ""
-            echo "=================================================="
-            echo "   DIA CHI SERVER:  $domain"
-            echo "=================================================="
-            echo ""
-        fi
         if [[ "$line" == *"Done ("* ]]; then
             touch "$SERVER_READY_FLAG"
         fi
@@ -255,18 +215,18 @@ cleanup() {
             # Ctrl+C lan 2 tro len trong luc dang cho -> force-kill ngay, khong doi het STOP_TIMEOUT
             if [ "$INT_COUNT" -ge 2 ]; then
                 echo "[WARN] Force-kill theo yeu cau (Ctrl+C lan 2, PID $SERVER_PID)..."
-                kill -TERM "$SERVER_PID" 2>/dev/null
+                kill -TERM -"$SERVER_PID" 2>/dev/null
                 sleep 2
-                kill -0 "$SERVER_PID" 2>/dev/null && kill -KILL "$SERVER_PID" 2>/dev/null
+                kill -0 "$SERVER_PID" 2>/dev/null && kill -KILL -"$SERVER_PID" 2>/dev/null
                 break
             fi
             sleep 1
             waited=$((waited + 1))
             if [ "$waited" -ge "$STOP_TIMEOUT" ]; then
                 echo "[WARN] Server khong tu tat sau ${STOP_TIMEOUT}s, dang force-kill (PID $SERVER_PID)..."
-                kill -TERM "$SERVER_PID" 2>/dev/null
+                kill -TERM -"$SERVER_PID" 2>/dev/null
                 sleep 5
-                kill -0 "$SERVER_PID" 2>/dev/null && kill -KILL "$SERVER_PID" 2>/dev/null
+                kill -0 "$SERVER_PID" 2>/dev/null && kill -KILL -"$SERVER_PID" 2>/dev/null
                 break
             fi
         done
@@ -274,9 +234,9 @@ cleanup() {
     fi
 
     echo "Dang dung tien trinh backup/theo doi log va don dep..."
-    kill "$BACKUP_PID" 2>/dev/null
-    kill "$TAIL_PID" 2>/dev/null
-    kill "$WATCH_PID" 2>/dev/null
+    kill -TERM -"$BACKUP_PID" 2>/dev/null
+    kill -TERM -"$TAIL_PID" 2>/dev/null
+    kill -TERM -"$WATCH_PID" 2>/dev/null
     wait "$BACKUP_PID" 2>/dev/null
     wait "$TAIL_PID" 2>/dev/null
     wait "$WATCH_PID" 2>/dev/null
@@ -301,7 +261,7 @@ trap on_interrupt INT TERM
 # Truong hop script ket thuc binh thuong (server tu crash/tu stop qua console)
 trap cleanup EXIT
 
-# Khoi dong playit.sh (chay song song qua tmux/screen/nen) truoc khi start server
+# Khoi dong playit.sh (chay nen) truoc khi start server
 launch_playit
 
 # ==== Khoi dong server, ghi truc tiep ra file, LAY DUNG PID CUA JAVA ====
@@ -311,7 +271,7 @@ if [ -f "./run.sh" ]; then
 else
     java "@${USER_JVM_ARGS_FILE}" -jar "$JAR_NAME" nogui <&3 >> console_log.txt 2>&1 &
 fi
-SERVER_PID=$!    # PID THAT CUA JAVA, khong bi lech qua pipe nua
+SERVER_PID=$!    # PID cua job (nho set -m, day cung la group leader cua ca nhanh nay)
 
 tail -n +1 -f console_log.txt >&4 2>/dev/null &
 TAIL_PID=$!
@@ -328,8 +288,4 @@ SERVER_EXIT_CODE=$?
 echo
 echo "============================================"
 echo "  Server da dung (exit code: $SERVER_EXIT_CODE)."
-echo "  Dang tim dia chi e4mc trong log..."
 echo "============================================"
-grep -i "e4mc" console_log.txt
-echo
-read -p "Nhan Enter de thoat..."
