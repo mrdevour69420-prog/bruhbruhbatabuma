@@ -11292,5 +11292,11 @@
     },
     "done": true
   },
+  "createbigcannons:recipes/misc/quickfiring_mechanism": {
+    "criteria": {
+      "has_lever": "2026-08-15 11:05:16 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

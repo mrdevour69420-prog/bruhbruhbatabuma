@@ -9601,5 +9601,11 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/kinetics/gearbox_from_conversion": {
+    "criteria": {
+      "has_item": "2026-08-15 11:07:05 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
