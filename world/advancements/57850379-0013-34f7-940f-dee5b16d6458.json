@@ -8442,5 +8442,59 @@
     },
     "done": true
   },
+  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_fence_gate": {
+    "criteria": {
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_pressure_plate": {
+    "criteria": {
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_door": {
+    "criteria": {
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_trapdoor": {
+    "criteria": {
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/blossom_slab": {
+    "criteria": {
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/decorations/world/crafting/woodsets/blossom/blossom_sign": {
+    "criteria": {
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_button": {
+    "criteria": {
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/decorations/world/crafting/woodsets/blossom/blossom_fence": {
+    "criteria": {
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/blossom_stairs": {
+    "criteria": {
+      "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
