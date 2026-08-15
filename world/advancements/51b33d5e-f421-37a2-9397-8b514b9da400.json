@@ -11286,6 +11286,12 @@
     },
     "done": true
   },
+  "create_enchantment_industry:probability_spike": {
+    "criteria": {
+      "0": "2026-08-15 11:55:14 +0000"
+    },
+    "done": true
+  },
   "create:frogport": {
     "criteria": {
       "0": "2026-08-15 11:12:33 +0000"
