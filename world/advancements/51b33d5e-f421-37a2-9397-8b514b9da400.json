@@ -11328,5 +11328,35 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/misc/gold_nugget_from_smelting_knife": {
+    "criteria": {
+      "has_golden_knife": "2026-08-15 13:57:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2026-08-15 13:57:26 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/gold_nugget_from_blasting_knife": {
+    "criteria": {
+      "has_golden_knife": "2026-08-15 13:57:05 +0000"
+    },
+    "done": true
+  },
+  "minersdelight:recipes/cooking/glow_ink_pasta": {
+    "criteria": {
+      "has_glow_ink_sac": "2026-08-15 13:57:26 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "golden_knife": "2026-08-15 13:57:05 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
