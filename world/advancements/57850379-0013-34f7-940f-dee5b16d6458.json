@@ -3964,6 +3964,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2026-08-15 12:07:53 +0000",
       "minecraft:cave_spider": "2026-08-10 08:18:32 +0000",
       "minecraft:skeleton": "2026-08-08 09:52:55 +0000",
       "minecraft:piglin": "2026-08-15 11:36:15 +0000",
@@ -8927,6 +8928,12 @@
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2026-08-15 11:47:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2026-08-15 12:07:55 +0000"
     },
     "done": true
   },
