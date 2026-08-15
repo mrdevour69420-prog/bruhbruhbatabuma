@@ -8442,9 +8442,21 @@
     },
     "done": true
   },
+  "create:recipes/decorations/brass_bars_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2026-08-15 11:18:40 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/elevator_pulley": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
     },
     "done": true
   },
@@ -8454,9 +8466,21 @@
     },
     "done": true
   },
+  "create:recipes/decorations/brass_ladder_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_stained_glass": {
     "criteria": {
       "has_glass": "2026-08-15 11:18:40 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/placard": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
     },
     "done": true
   },
@@ -8466,9 +8490,33 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/logistics/brass_tunnel": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
   "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_fence_gate": {
     "criteria": {
       "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/brass_funnel": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2026-08-15 11:26:53 +0000"
     },
     "done": true
   },
@@ -8481,6 +8529,12 @@
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2026-08-15 11:18:40 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/electron_tube": {
+    "criteria": {
+      "has_item": "2026-08-15 11:27:08 +0000"
     },
     "done": true
   },
@@ -8526,6 +8580,12 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/kinetics/brass_hand": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
   "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_door": {
     "criteria": {
       "has_blossom_planks": "2026-08-15 10:57:09 +0000"
@@ -8541,6 +8601,12 @@
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2026-08-15 11:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2026-08-15 11:26:53 +0000"
     },
     "done": true
   },
@@ -8574,6 +8640,12 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/curiosities/peculiar_bell": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
     "criteria": {
       "has_copper_block": "2026-08-15 11:02:32 +0000"
@@ -8583,6 +8655,12 @@
   "quark:recipes/building_blocks/world/crafting/woodsets/blossom/blossom_slab": {
     "criteria": {
       "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/printer": {
+    "criteria": {
+      "brass": "2026-08-15 11:25:46 +0000"
     },
     "done": true
   },
@@ -8610,6 +8688,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2026-08-15 11:26:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2026-08-15 11:26:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_copper_from_copper_block_stonecutting": {
     "criteria": {
       "has_copper_block": "2026-08-15 11:02:32 +0000"
@@ -8628,6 +8718,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2026-08-15 11:26:53 +0000"
+    },
+    "done": true
+  },
   "brick_and_mortar:recipes/kiln_firing/kiln_firing/glass": {
     "criteria": {
       "has_input": "2026-08-15 11:18:40 +0000"
@@ -8637,6 +8733,18 @@
   "minecraft:recipes/redstone/copper_bulb": {
     "criteria": {
       "has_copper_block": "2026-08-15 11:02:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/attribute_filter": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_block_from_compacting": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
     },
     "done": true
   },
@@ -8682,15 +8790,45 @@
     },
     "done": true
   },
+  "create:recipes/decorations/brass_scaffolding_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2026-08-15 11:26:53 +0000"
+    },
+    "done": true
+  },
   "quark:recipes/decorations/world/crafting/woodsets/blossom/blossom_fence": {
     "criteria": {
       "has_blossom_planks": "2026-08-15 10:57:09 +0000"
     },
     "done": true
   },
+  "create:recipes/misc/crafting/materials/brass_nugget_from_decompacting": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/rose_quartz_block_from_rose_quartz_stonecutting": {
+    "criteria": {
+      "has_rose_quartz": "2026-08-15 11:27:08 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/tiled_glass_from_glass_blocks_colorless_stonecutting": {
     "criteria": {
       "has_glass_blocks_colorless": "2026-08-15 11:18:40 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/flywheel": {
+    "criteria": {
+      "has_item": "2026-08-15 11:25:46 +0000"
     },
     "done": true
   },
@@ -8703,6 +8841,18 @@
   "quark:recipes/building_blocks/world/crafting/woodsets/blossom/blossom_stairs": {
     "criteria": {
       "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_table_cloth_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/proximity_fuze": {
+    "criteria": {
+      "has_quartz": "2026-08-15 11:26:53 +0000"
     },
     "done": true
   },
