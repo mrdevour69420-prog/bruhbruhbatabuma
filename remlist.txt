@@ -10,5 +10,6 @@ sodium-extra-neoforge-0.8.7+mc1.21.1.jar
 
 # Mod không dùng nữa
 e4mc-neoforge-6.1.2.jar
+connector-2.0.0-beta.14+1.21.1-full.jar
 
 # ...
