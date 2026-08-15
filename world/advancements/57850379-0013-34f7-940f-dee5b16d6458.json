@@ -8492,6 +8492,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2026-08-15 11:47:31 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/logistics/brass_tunnel": {
     "criteria": {
       "has_item": "2026-08-15 11:25:46 +0000"
@@ -8558,6 +8564,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2026-08-15 11:47:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_stained_glass": {
     "criteria": {
       "has_glass": "2026-08-15 11:18:40 +0000"
@@ -8591,6 +8603,12 @@
   "create:recipes/misc/crafting/kinetics/brass_hand": {
     "criteria": {
       "has_item": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2026-08-15 11:47:31 +0000"
     },
     "done": true
   },
@@ -8717,6 +8735,12 @@
   "minecraft:recipes/building_blocks/cut_copper": {
     "criteria": {
       "has_copper_block": "2026-08-15 11:02:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2026-08-15 11:47:31 +0000"
     },
     "done": true
   },

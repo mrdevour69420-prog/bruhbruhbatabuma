@@ -11298,6 +11298,18 @@
     },
     "done": true
   },
+  "create_enchantment_industry:blazing_enchantment": {
+    "criteria": {
+      "0": "2026-08-15 11:51:00 +0000"
+    },
+    "done": true
+  },
+  "create:spout": {
+    "criteria": {
+      "0": "2026-08-15 11:49:33 +0000"
+    },
+    "done": true
+  },
   "createbigcannons:recipes/misc/quickfiring_mechanism": {
     "criteria": {
       "has_lever": "2026-08-15 11:05:16 +0000"
