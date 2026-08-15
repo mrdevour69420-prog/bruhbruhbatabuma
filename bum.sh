@@ -8,14 +8,6 @@ REMLIST="remlist.txt"
 MODS_DIR="./mods"
 JOBS=67
 
-# --- playit.gg: skip reinstall if already present ---
-if ! command -v playit &>/dev/null; then
-    log "Installing playit.gg..."
-    curl -fsSL https://packages.playit.gg/install.sh | bash
-else
-    log "playit.gg already installed, skipping"
-fi
-
 # --- sanity checks before chmod ---
 for f in download.sh remove.sh git.sh; do
     [[ -f "$f" ]] || { echo "ERROR: $f not found" >&2; exit 1; }
