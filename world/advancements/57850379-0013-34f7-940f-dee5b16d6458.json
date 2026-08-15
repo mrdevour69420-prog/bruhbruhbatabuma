@@ -3966,13 +3966,15 @@
     "criteria": {
       "minecraft:cave_spider": "2026-08-10 08:18:32 +0000",
       "minecraft:skeleton": "2026-08-08 09:52:55 +0000",
+      "minecraft:piglin": "2026-08-15 11:36:15 +0000",
       "minecraft:enderman": "2026-08-09 04:47:43 +0000",
       "minecraft:silverfish": "2026-08-10 08:29:32 +0000",
       "minecraft:spider": "2026-08-08 10:02:47 +0000",
       "minecraft:zombie": "2026-08-08 10:02:52 +0000",
       "minecraft:creeper": "2026-08-08 10:04:07 +0000",
       "minecraft:drowned": "2026-08-08 13:38:08 +0000",
-      "minecraft:slime": "2026-08-10 08:26:46 +0000"
+      "minecraft:slime": "2026-08-10 08:26:46 +0000",
+      "minecraft:hoglin": "2026-08-15 11:36:28 +0000"
     },
     "done": false
   },
@@ -8502,6 +8504,12 @@
     },
     "done": true
   },
+  "mynethersdelight:recipes/misc/crafting/red_loin_on_a_stick": {
+    "criteria": {
+      "has_hoglin_loin": "2026-08-15 11:36:29 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/logistics/brass_funnel": {
     "criteria": {
       "has_item": "2026-08-15 11:25:46 +0000"
@@ -8604,9 +8612,27 @@
     },
     "done": true
   },
+  "mynethersdelight:recipes/food/hoglin_loin_cooking": {
+    "criteria": {
+      "hoglin_loin": "2026-08-15 11:36:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2026-08-15 11:26:53 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/misc/crafting/nether_burger": {
+    "criteria": {
+      "has_hoglin_loin": "2026-08-15 11:36:29 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/food/hoglin_loin_from_campfire_cooking": {
+    "criteria": {
+      "hoglin_loin": "2026-08-15 11:36:29 +0000"
     },
     "done": true
   },
@@ -8661,6 +8687,12 @@
   "create_enchantment_industry:recipes/printer": {
     "criteria": {
       "brass": "2026-08-15 11:25:46 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/cooking/spicy_hoglin_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-08-15 11:36:29 +0000"
     },
     "done": true
   },
@@ -8730,6 +8762,12 @@
     },
     "done": true
   },
+  "mynethersdelight:recipes/food/hoglin_loin_from_smoking": {
+    "criteria": {
+      "hoglin_loin": "2026-08-15 11:36:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/copper_bulb": {
     "criteria": {
       "has_copper_block": "2026-08-15 11:02:32 +0000"
@@ -8763,6 +8801,18 @@
   "quark:recipes/decorations/world/crafting/woodsets/blossom/blossom_sign": {
     "criteria": {
       "has_blossom_planks": "2026-08-15 10:57:09 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/misc/crafting/blue_tenderloin_steak": {
+    "criteria": {
+      "has_hoglin_loin": "2026-08-15 11:36:29 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/cooking/fried_hoglin_chop": {
+    "criteria": {
+      "has_any_ingredient": "2026-08-15 11:36:29 +0000"
     },
     "done": true
   },
