@@ -1,0 +1,16 @@
+{
+  "disabledDimensions": [
+    "minecraft:the_end"
+  ],
+  "announce": true,
+  "restrictedDimensionMessage": "&cChiều không gian %dimension% đang bị khóa",
+  "timedDimensionRestrictedMessage": "&eChiều không gian này bị khóa đến &6%time%",
+  "unrestrictedAnnouncementMessage": "&aChiều không gian %dimension% hiện đã được mở!",
+  "timeRestrictions": {
+    "minecraft:the_end": {
+      "enabled": true,
+      "timeZone": "Asia/Ho_Chi_Minh",
+      "unlockDateTime": "2099-12-31T23:59:59"
+    }
+  }
+}
