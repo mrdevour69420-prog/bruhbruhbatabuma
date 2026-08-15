@@ -27,3 +27,4 @@ session.lock
 !/remlist.txt
 !/mod.mrpack
 !/.gitignore
+!/installer.jar
