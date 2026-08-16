@@ -86,6 +86,11 @@ else
     exit 1
 fi
 
+# Kiem tra sha1sum MOT LAN duy nhat thay vi goi "command -v" cho tung file
+# (co the toi vai tram lan neu modpack co nhieu mod) -> giam overhead khi tai song song.
+HAVE_SHA1SUM=false
+command -v sha1sum >/dev/null 2>&1 && HAVE_SHA1SUM=true
+
 # --- thư mục tạm để giải nén .mrpack ---
 TMP_DIR="$(mktemp -d)"
 cleanup() { rm -rf "$TMP_DIR"; }
@@ -153,7 +158,7 @@ verify_sha1() {
     if [[ -z "$expected" || "$expected" == "null" ]]; then
         return 0
     fi
-    if ! command -v sha1sum >/dev/null 2>&1; then
+    if [[ "$HAVE_SHA1SUM" != true ]]; then
         return 0
     fi
     local actual
@@ -198,7 +203,7 @@ process_line() {
 }
 
 export -f download_with_retry verify_sha1 process_line
-export DOWNLOAD_TOOL CONNECT_TIMEOUT MAX_TIME MAX_RETRIES OUTPUT_DIR SKIP_HASH_CHECK FORCE_REPLACE
+export DOWNLOAD_TOOL CONNECT_TIMEOUT MAX_TIME MAX_RETRIES OUTPUT_DIR SKIP_HASH_CHECK FORCE_REPLACE HAVE_SHA1SUM
 
 # --- trích danh sách file cần tải ra 1 file tạm (dễ debug hơn process substitution) ---
 TSV_FILE="$TMP_DIR/files.tsv"

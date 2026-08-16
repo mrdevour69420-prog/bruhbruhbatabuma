@@ -5,7 +5,7 @@ cd "$(dirname "$0")" || exit 1
 
 # ==== Bat job control: moi tien trinh chay nen (&) se co process group RIENG.
 # Nho vay, khi ban bam Ctrl+C tren terminal, tin hieu SIGINT CHI den script nay
-# (khong tu dong bay sang java/tail/watch_log/backup_loop/playit), va viec tat
+# (khong tu dong bay sang java/tail/watch_log/backup_loop), va viec tat
 # server hoan toan do logic cleanup() ben duoi quyet dinh -> Ctrl+C se luon tat
 # duoc server/script mot cach co the du doan duoc, thay vi bi dua tin hieu vao
 # ca dong roi mac ket / khong phan hoi. ====
@@ -26,7 +26,10 @@ RAM_MAX_DEFAULT="6G"
 BACKUP_INTERVAL="${BACKUP_INTERVAL:-300}"
 BACKUP_TIMEOUT="${BACKUP_TIMEOUT:-180}"
 STOP_TIMEOUT="${STOP_TIMEOUT:-60}"   # so giay cho server tu tat truoc khi force-kill
-LOCK_FILE="/tmp/$(basename "$PWD")_backup.lock"
+WAIT_KILL_TIMEOUT="${WAIT_KILL_TIMEOUT:-10}"  # so giay cho backup/tail/watch tu thoat truoc khi force-kill
+# Dung hash cua duong dan day du (khong chi basename) de tranh dung lock file
+# voi 2 server khac nhau nhung nam trong 2 thu muc cha khac nhau ma trung ten thu muc con.
+LOCK_FILE="/tmp/$(printf '%s' "$PWD" | md5sum | cut -d' ' -f1)_backup.lock"
 FIFO="server_input.fifo"
 LOG_FIFO="watch_log.fifo"
 MAX_LOG_SIZE=$((5*1024*1024))
@@ -85,42 +88,6 @@ link_extra_mods
 echo
 # ==== HET PHAN MODS-EXTRA ====
 
-# ==== Khoi dong playit.sh o che do nen ====
-launch_playit() {
-    if [ ! -f "./$PLAYIT_SCRIPT" ]; then
-        echo "[PLAYIT] Khong tim thay $PLAYIT_SCRIPT, bo qua."
-        return
-    fi
-    chmod +x "./$PLAYIT_SCRIPT" 2>/dev/null
-
-    : > "$PLAYIT_LOG"
-    ./"$PLAYIT_SCRIPT" >> "$PLAYIT_LOG" 2>&1 &
-    PLAYIT_BG_PID=$!
-    echo "[PLAYIT] Da khoi dong $PLAYIT_SCRIPT (PID $PLAYIT_BG_PID)."
-    echo "[PLAYIT] Xem log: mo terminal/tab khac roi chay:  tail -f $PLAYIT_LOG"
-    echo
-}
-
-cleanup_playit() {
-    [ -z "$PLAYIT_BG_PID" ] && return
-    kill -0 "$PLAYIT_BG_PID" 2>/dev/null || return
-
-    echo "Dang dung playit (PID $PLAYIT_BG_PID)..."
-    # PLAYIT_BG_PID la group leader (nho set -m) -> gui tin hieu ca group de
-    # dam bao playitd (con cua playit.sh) cung duoc dep theo dung trap cua no.
-    kill -TERM -"$PLAYIT_BG_PID" 2>/dev/null
-    local waited=0
-    while kill -0 "$PLAYIT_BG_PID" 2>/dev/null; do
-        sleep 0.5
-        waited=$((waited + 1))
-        [ "$waited" -ge 10 ] && break
-    done
-    if kill -0 "$PLAYIT_BG_PID" 2>/dev/null; then
-        kill -KILL -"$PLAYIT_BG_PID" 2>/dev/null
-    fi
-}
-# ==== HET PHAN PLAYIT ====
-
 if [ ! -f "$USER_JVM_ARGS_FILE" ]; then
     cat > "$USER_JVM_ARGS_FILE" <<EOF
 # Cac tham so JVM, moi dong mot tham so
@@ -167,6 +134,15 @@ do_backup() {
 }
 
 backup_loop() {
+    # QUAN TRONG: day la ham bash chay nen (khong exec sang lenh khac) nen se
+    # KE THUA trap INT/TERM cua script cha neu khong reset. Neu khong reset,
+    # khi cleanup() gui TERM cho tien trinh nay, no se chay lai trap
+    # on_interrupt/cleanup() TU BEN TRONG CHINH NO thay vi thoat ngay -> gay
+    # dua tien trinh (xoa lai FIFO/lock file dang dung do), ghi lenh vao fd 3
+    # co the loi vi da bi dong, va lam cha bi "wait" treo -> Ctrl+C khong tat
+    # het duoc toan bo tien trinh. Reset ve mac dinh de TERM la thoat ngay.
+    trap - INT TERM
+
     while [ ! -f "$SERVER_READY_FLAG" ]; do
         kill -0 "$SERVER_PID" 2>/dev/null || return
         sleep 2
@@ -184,6 +160,9 @@ backup_loop() {
 # ==== Theo doi console_log.txt qua FIFO rieng (tail -f va vong read la 2 tien trinh
 # tach biet, moi tien trinh co PID that de kill trong cleanup, tranh bi mo cong) ====
 watch_log() {
+    # Ly do reset trap: xem giai thich chi tiet trong backup_loop() o tren.
+    trap - INT TERM
+
     while IFS= read -r line <&4; do
         echo "$line"
         if [[ "$line" == *"Done ("* ]]; then
@@ -192,8 +171,7 @@ watch_log() {
     done
 }
 
-SERVER_READY_FLAG="$(mktemp)"
-rm -f "$SERVER_READY_FLAG"
+SERVER_READY_FLAG="$(mktemp -u)"
 
 CLEANED_UP=0
 INT_COUNT=0   # dem so lan bam Ctrl+C, dung de escalate sang force-kill ngay
@@ -237,19 +215,33 @@ cleanup() {
     kill -TERM -"$BACKUP_PID" 2>/dev/null
     kill -TERM -"$TAIL_PID" 2>/dev/null
     kill -TERM -"$WATCH_PID" 2>/dev/null
-    wait "$BACKUP_PID" 2>/dev/null
-    wait "$TAIL_PID" 2>/dev/null
-    wait "$WATCH_PID" 2>/dev/null
+    wait_or_kill "$BACKUP_PID"
+    wait_or_kill "$TAIL_PID"
+    wait_or_kill "$WATCH_PID"
     exec 3>&- 2>/dev/null
     exec 4>&- 2>/dev/null
     rm -f "$FIFO" "$LOG_FIFO" "$LOCK_FILE" "$SERVER_READY_FLAG"
-
-    cleanup_playit
 }
 
 # Ctrl+C / kill: chi lan bam DAU TIEN moi goi cleanup(); cac lan sau CHI tang
 # INT_COUNT (rat nhanh, khong bi chan) de vong cho trong cleanup() thay doi
 # huong sang force-kill ngay, thay vi bi nuot mat va thoat ngam nhu truoc.
+# Cho mot tien trinh nen thoat sau khi da gui TERM, toi da $WAIT_KILL_TIMEOUT
+# giay; qua thoi gian van con song thi KILL luon, tranh cleanup() bi treo vo
+# thoi han vi mot lenh con (vd git push ket ket noi mang) khong chiu chet.
+wait_or_kill() {
+    local pid="$1" waited=0
+    while kill -0 "$pid" 2>/dev/null; do
+        sleep 0.5
+        waited=$((waited + 1))
+        if [ "$waited" -ge $((WAIT_KILL_TIMEOUT * 2)) ]; then
+            kill -KILL -"$pid" 2>/dev/null
+            break
+        fi
+    done
+    wait "$pid" 2>/dev/null
+}
+
 on_interrupt() {
     INT_COUNT=$((INT_COUNT + 1))
     if [ "$INT_COUNT" -eq 1 ]; then
@@ -260,9 +252,6 @@ on_interrupt() {
 trap on_interrupt INT TERM
 # Truong hop script ket thuc binh thuong (server tu crash/tu stop qua console)
 trap cleanup EXIT
-
-# Khoi dong playit.sh (chay nen) truoc khi start server
-launch_playit
 
 # ==== Khoi dong server, ghi truc tiep ra file, LAY DUNG PID CUA JAVA ====
 : > console_log.txt   # xoa log cu

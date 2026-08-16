@@ -6,7 +6,7 @@ log() { echo "[setup] $*"; }
 MODPACK="mod.mrpack"
 REMLIST="remlist.txt"
 MODS_DIR="./mods"
-JOBS=67
+JOBS="${JOBS:-67}"
 
 # --- sanity checks before chmod ---
 for f in download.sh remove.sh git.sh; do

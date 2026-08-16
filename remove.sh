@@ -84,7 +84,10 @@ declare -a FOUND_PATHS=()
 declare -a MISSING_NAMES=()
 
 while IFS= read -r line || [[ -n "$line" ]]; do
-    line="$(echo "$line" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')"
+    # Trim khoang trang bang bash builtin (khong spawn tien trinh con
+    # echo/sed cho tung dong -> nhanh hon dang ke voi danh sach dai)
+    line="${line#"${line%%[![:space:]]*}"}"
+    line="${line%"${line##*[![:space:]]}"}"
     [[ -z "$line" || "$line" =~ ^# ]] && continue
 
     candidate="$TARGET_DIR/$line"
