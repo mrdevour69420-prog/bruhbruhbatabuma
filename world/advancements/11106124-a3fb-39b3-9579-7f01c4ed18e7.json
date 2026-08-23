@@ -3499,6 +3499,12 @@
     },
     "done": true
   },
+  "supplementaries:recipe/integration/planter_rich_fd": {
+    "criteria": {
+      "has_item_minecraft_brick_1": "2026-08-23 12:27:34 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/materials/andesite_alloy": {
     "criteria": {
       "has_item": "2026-08-23 11:28:24 +0000"
@@ -3514,6 +3520,12 @@
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2026-08-23 11:47:14 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2026-08-23 12:27:34 +0000"
     },
     "done": true
   },
@@ -3859,6 +3871,18 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/decorations/skillet": {
+    "criteria": {
+      "has_brick": "2026-08-23 12:27:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2026-08-23 12:27:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2026-08-23 11:32:54 +0000"
@@ -3967,11 +3991,23 @@
     },
     "done": true
   },
+  "lootr:pot_opened": {
+    "criteria": {
+      "pot_opened": "2026-08-23 12:24:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
       "has_planks": "2026-08-23 11:47:14 +0000"
     },
     "done": true
+  },
+  "lootr:archaeologist": {
+    "criteria": {
+      "got_pot": "2026-08-23 12:24:34 +0000"
+    },
+    "done": false
   },
   "supplementaries:recipe/candle_holders/candle_holder_white": {
     "criteria": {
@@ -4372,6 +4408,12 @@
     },
     "done": true
   },
+  "supplementaries:recipe/item_lore": {
+    "criteria": {
+      "has_item_minecraft_name_tag_1": "2026-08-23 12:25:11 +0000"
+    },
+    "done": true
+  },
   "bits_n_bobs:recipes/building_blocks/crafting/brown_chair": {
     "criteria": {
       "has_wool": "2026-08-23 12:20:37 +0000"
@@ -4549,6 +4591,12 @@
   "supplementaries:recipe/bomb": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2026-08-23 12:27:34 +0000"
     },
     "done": true
   },
@@ -4744,6 +4792,12 @@
     },
     "done": true
   },
+  "brick_and_mortar:recipes/decorations/kiln": {
+    "criteria": {
+      "has_brick": "2026-08-23 12:27:34 +0000"
+    },
+    "done": true
+  },
   "mynethersdelight:recipes/cooking/boiled_eggs": {
     "criteria": {
       "has_any_ingredient": "2026-08-23 11:20:36 +0000"
@@ -4825,6 +4879,12 @@
   "create:recipes/building_blocks/crafting/kinetics/lime_seat": {
     "criteria": {
       "has_wool": "2026-08-23 12:20:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2026-08-23 12:27:34 +0000"
     },
     "done": true
   },

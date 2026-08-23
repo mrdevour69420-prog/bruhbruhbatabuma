@@ -2779,9 +2779,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_birch_forest": "2026-08-23 12:25:25 +0000",
       "minecraft:beach": "2026-08-23 10:33:12 +0000",
       "minecraft:forest": "2026-08-23 10:32:15 +0000",
       "minecraft:mangrove_swamp": "2026-08-23 10:28:16 +0000",
+      "minecraft:ocean": "2026-08-23 12:22:28 +0000",
       "minecraft:river": "2026-08-23 10:39:01 +0000",
       "minecraft:swamp": "2026-08-23 10:31:11 +0000",
       "minecraft:birch_forest": "2026-08-23 10:31:43 +0000",
@@ -3488,6 +3490,12 @@
     },
     "done": true
   },
+  "bits_n_bobs:recipes/building_blocks/crafting/orange_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/flags/flag_white": {
     "criteria": {
       "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
@@ -3500,9 +3508,27 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/logistics/yellow_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2026-08-23 12:24:16 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/flags/flag_blue": {
     "criteria": {
       "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/light_blue_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -3560,6 +3586,12 @@
     },
     "done": true
   },
+  "aeronautics:recipes/misc/magenta_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2026-08-23 11:33:26 +0000"
@@ -3569,6 +3601,12 @@
   "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/blue_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -3617,6 +3655,12 @@
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2026-08-23 10:52:59 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_blue_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -3674,6 +3718,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/logistics/cyan_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2026-08-23 11:30:29 +0000"
@@ -3686,6 +3736,12 @@
     },
     "done": true
   },
+  "aeronautics:recipes/misc/purple_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "createbigcannons:recipes/misc/mortar_stone": {
     "criteria": {
       "has_stone": "2026-08-23 10:46:17 +0000"
@@ -3695,6 +3751,12 @@
   "supplementaries:recipe/flags/flag_black": {
     "criteria": {
       "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/red_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -3884,6 +3946,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/logistics/purple_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2026-08-23 11:30:28 +0000"
@@ -3896,15 +3964,33 @@
     },
     "done": true
   },
+  "bits_n_bobs:recipes/building_blocks/crafting/pink_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_diorite_stairs_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
     },
     "done": true
   },
+  "bits_n_bobs:recipes/building_blocks/crafting/magenta_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "bits_n_bobs:recipes/building_blocks/granite_tile_wall_from_stone_types_granite_stonecutting": {
     "criteria": {
       "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "bits_n_bobs:recipes/building_blocks/crafting/purple_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -3968,6 +4054,24 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/kinetics/red_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_gray_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/blue_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "ecologics:recipes/ecologics/tropical_stew": {
     "criteria": {
       "has_crab_meat": "2026-08-23 12:18:33 +0000"
@@ -3983,6 +4087,12 @@
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
       "has_furnace": "2026-08-23 11:34:28 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/blue_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4028,6 +4138,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/logistics/light_gray_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/flags/flag_brown": {
     "criteria": {
       "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
@@ -4043,6 +4159,12 @@
   "create:recipes/building_blocks/polished_cut_granite_slab_from_stone_types_granite_stonecutting": {
     "criteria": {
       "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/cyan_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4064,6 +4186,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/kinetics/pink_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/polished_cut_calcite_slab_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
@@ -4076,9 +4204,21 @@
     },
     "done": true
   },
+  "another_furniture:recipes/white_sofa": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_calcite_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/black_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4091,6 +4231,12 @@
   "create:recipes/building_blocks/andesite_pillar_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
+    },
+    "done": true
+  },
+  "bits_n_bobs:recipes/building_blocks/crafting/white_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4136,6 +4282,24 @@
     },
     "done": true
   },
+  "bits_n_bobs:recipes/building_blocks/crafting/red_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/pink_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/white_tall_stool": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_andesite_brick_stairs_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
@@ -4145,6 +4309,18 @@
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4166,6 +4342,24 @@
     },
     "done": true
   },
+  "aeronautics:recipes/misc/light_gray_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "bits_n_bobs:recipes/building_blocks/crafting/light_blue_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/brown_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "bits_n_bobs:recipes/building_blocks/diorite_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
@@ -4178,9 +4372,27 @@
     },
     "done": true
   },
+  "aeronautics:recipes/misc/lime_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2026-08-23 10:47:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:spider": "2026-08-23 12:23:18 +0000"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/pink_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4214,9 +4426,27 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/logistics/lime_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "another_furniture:recipes/oak_drawer": {
     "criteria": {
       "has_planks": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/green_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4280,6 +4510,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/logistics/orange_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "bits_n_bobs:recipes/building_blocks/andesite_tile_stairs_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
@@ -4298,9 +4534,27 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/kinetics/magenta_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "another_furniture:recipes/dark_oak_drawer": {
     "criteria": {
       "has_planks": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/green_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/buntings/bunting_white_2": {
+    "criteria": {
+      "has_item_minecraft_white_wool_2": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4322,6 +4576,26 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2026-08-23 12:24:19 +0000",
+      "minecraft:spider": "2026-08-23 12:23:18 +0000",
+      "minecraft:zombie": "2026-08-23 12:23:24 +0000"
+    },
+    "done": false
+  },
+  "aeronautics:recipes/misc/black_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/cyan_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/integration/pancake_fd": {
     "criteria": {
       "has_tag_c_eggs_4": "2026-08-23 12:20:26 +0000"
@@ -4331,6 +4605,12 @@
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/white_stool": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4364,6 +4644,12 @@
     },
     "done": true
   },
+  "another_furniture:recipes/white_curtain": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2026-08-23 10:57:28 +0000"
@@ -4376,6 +4662,24 @@
     },
     "done": true
   },
+  "aeronautics:recipes/misc/brown_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "lootr:social": {
+    "criteria": {
+      "opened_chest": "2026-08-23 12:24:33 +0000"
+    },
+    "done": false
+  },
+  "bits_n_bobs:recipes/building_blocks/crafting/cyan_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "another_furniture:recipes/spruce_drawer": {
     "criteria": {
       "has_planks": "2026-08-23 11:33:26 +0000"
@@ -4385,6 +4689,12 @@
   "create:recipes/building_blocks/cut_andesite_bricks_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
+    },
+    "done": true
+  },
+  "bits_n_bobs:recipes/building_blocks/crafting/light_gray_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4526,15 +4836,39 @@
     },
     "done": true
   },
+  "bits_n_bobs:recipes/building_blocks/crafting/brown_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/small_andesite_brick_wall_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/kinetics/green_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_diorite_brick_stairs_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/purple_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4562,6 +4896,12 @@
     },
     "done": true
   },
+  "bits_n_bobs:recipes/building_blocks/crafting/yellow_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2026-08-23 12:21:12 +0000"
@@ -4583,6 +4923,12 @@
   "farmersdelight:recipes/combat/diamond_knife": {
     "criteria": {
       "has_diamond": "2026-08-23 10:52:59 +0000"
+    },
+    "done": true
+  },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2026-08-23 12:24:33 +0000"
     },
     "done": true
   },
@@ -4610,6 +4956,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/kinetics/brown_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_granite_brick_wall_from_stone_types_granite_stonecutting": {
     "criteria": {
       "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
@@ -4628,9 +4980,33 @@
     },
     "done": true
   },
+  "bits_n_bobs:recipes/building_blocks/crafting/black_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/magenta_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/gray_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/polished_cut_granite_stairs_from_stone_types_granite_stonecutting": {
     "criteria": {
       "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "bits_n_bobs:recipes/building_blocks/crafting/lime_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4640,9 +5016,33 @@
     },
     "done": true
   },
+  "aeronautics:recipes/misc/yellow_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/layered_granite_from_stone_types_granite_stonecutting": {
     "criteria": {
       "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/orange_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/orange_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4682,6 +5082,12 @@
     },
     "done": true
   },
+  "bits_n_bobs:recipes/building_blocks/crafting/gray_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/timber_frame": {
     "criteria": {
       "has_tag_c_rods_wooden_1": "2026-08-23 11:33:26 +0000"
@@ -4703,6 +5109,18 @@
   "create:recipes/building_blocks/cut_granite_bricks_from_stone_types_granite_stonecutting": {
     "criteria": {
       "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "bits_n_bobs:recipes/building_blocks/crafting/blue_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4760,6 +5178,18 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/logistics/light_blue_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/white_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/small_diorite_brick_stairs_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
@@ -4772,9 +5202,39 @@
     },
     "done": true
   },
+  "aeronautics:recipes/misc/gray_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2026-08-23 10:46:22 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/gray_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/red_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/black_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4793,6 +5253,18 @@
   "create:recipes/building_blocks/cut_calcite_brick_stairs_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/white_lamp": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4826,9 +5298,27 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/kinetics/white_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
   "bits_n_bobs:recipes/building_blocks/granite_tile_stairs_from_stone_types_granite_stonecutting": {
     "criteria": {
       "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "bits_n_bobs:recipes/building_blocks/crafting/green_chair": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/lime_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
@@ -4895,6 +5385,24 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2026-08-23 10:52:59 +0000"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/white_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/gas_mask": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/yellow_seat": {
+    "criteria": {
+      "has_wool": "2026-08-23 12:26:41 +0000"
     },
     "done": true
   },
