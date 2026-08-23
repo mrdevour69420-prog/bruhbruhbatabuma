@@ -2772,6 +2772,7 @@
       "minecraft:ocean": "2026-08-23 11:38:12 +0000",
       "minecraft:swamp": "2026-08-08 13:43:00 +0000",
       "minecraft:birch_forest": "2026-08-08 13:43:23 +0000",
+      "minecraft:bamboo_jungle": "2026-08-23 11:55:17 +0000",
       "minecraft:windswept_savanna": "2026-08-08 13:40:56 +0000",
       "minecraft:plains": "2026-08-08 13:41:29 +0000"
     },
@@ -6584,6 +6585,60 @@
   "lootr:1barrel": {
     "criteria": {
       "opened_barrel": "2026-08-23 11:28:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2026-08-23 11:51:06 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/kiln_firing/kiln_firing/nether_bricks_soul_tier_0": {
+    "criteria": {
+      "has_input": "2026-08-23 11:51:06 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/kiln_firing/kiln_firing/nether_bricks_soul_tier_1": {
+    "criteria": {
+      "has_input": "2026-08-23 11:51:06 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/kiln_firing/kiln_firing/nether_bricks_soul_tier_2": {
+    "criteria": {
+      "has_input": "2026-08-23 11:51:06 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/kiln_firing/kiln_firing/nether_bricks_soul_tier_3": {
+    "criteria": {
+      "has_input": "2026-08-23 11:51:06 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/kiln_firing/kiln_firing/nether_bricks_tier_2": {
+    "criteria": {
+      "has_input": "2026-08-23 11:51:06 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/kiln_firing/kiln_firing/nether_bricks_tier_3": {
+    "criteria": {
+      "has_input": "2026-08-23 11:51:06 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/kiln_firing/kiln_firing/nether_bricks_tier_0": {
+    "criteria": {
+      "has_input": "2026-08-23 11:51:06 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/kiln_firing/kiln_firing/nether_bricks_tier_1": {
+    "criteria": {
+      "has_input": "2026-08-23 11:51:06 +0000"
     },
     "done": true
   },
