@@ -6489,12 +6489,6 @@
     },
     "done": true
   },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2026-08-23 10:30:34 +0000"
-    },
-    "done": true
-  },
   "jodek:armor_stand_arms": {
     "criteria": {
       "tick": "2026-08-23 10:20:39 +0000"
@@ -6519,15 +6513,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2026-08-23 10:22:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2026-08-23 10:30:34 +0000"
+    },
+    "done": true
+  },
   "mynethersdelight:recipes/cooking/hotcream": {
     "criteria": {
       "has_any_ingredient": "2026-08-23 10:30:34 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/coarse_dirt": {
+  "supplementaries:recipe/lumisene_bucket": {
     "criteria": {
-      "has_gravel": "2026-08-23 10:22:23 +0000"
+      "has_item_minecraft_bucket_2": "2026-08-23 10:32:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2026-08-23 10:35:05 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-08-23 10:35:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-08-23 10:35:04 +0000"
     },
     "done": true
   },

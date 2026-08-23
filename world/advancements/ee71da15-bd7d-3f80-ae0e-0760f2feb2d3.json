@@ -2779,8 +2779,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2026-08-23 10:33:12 +0000",
+      "minecraft:forest": "2026-08-23 10:32:15 +0000",
       "minecraft:mangrove_swamp": "2026-08-23 10:28:16 +0000",
-      "minecraft:swamp": "2026-08-23 10:31:11 +0000"
+      "minecraft:swamp": "2026-08-23 10:31:11 +0000",
+      "minecraft:birch_forest": "2026-08-23 10:31:43 +0000",
+      "minecraft:windswept_savanna": "2026-08-23 10:34:03 +0000"
     },
     "done": false
   },
@@ -3273,6 +3277,18 @@
   "supplementaries:recipe/turn_table": {
     "criteria": {
       "has_tag_minecraft_planks_1": "2026-08-23 10:31:06 +0000"
+    },
+    "done": true
+  },
+  "sliceanddice:recipes/misc/slicer": {
+    "criteria": {
+      "has_tool": "2026-08-23 10:32:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-08-23 10:32:46 +0000"
     },
     "done": true
   },
