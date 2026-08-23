@@ -3350,6 +3350,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:47:14 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/flags/flag_blue": {
     "criteria": {
       "has_tag_c_rods_wooden_2": "2026-08-23 11:34:42 +0000"
@@ -3377,6 +3383,12 @@
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:47:14 +0000"
     },
     "done": true
   },
@@ -3416,9 +3428,21 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-08-23 11:47:32 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/flags/flag_green": {
     "criteria": {
       "has_tag_c_rods_wooden_2": "2026-08-23 11:34:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:47:14 +0000"
     },
     "done": true
   },
@@ -3437,6 +3461,12 @@
   "farmersdelight:recipes/cooking/baked_cod_stew": {
     "criteria": {
       "has_any_ingredient": "2026-08-23 11:20:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:47:14 +0000"
     },
     "done": true
   },
@@ -3776,6 +3806,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:47:14 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/candle_holders/candle_holder_white": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-08-23 11:28:24 +0000"
@@ -3822,9 +3858,16 @@
     "criteria": {
       "chicken": "2026-08-23 11:20:41 +0000",
       "cooked_chicken": "2026-08-23 11:38:47 +0000",
+      "cooked_mutton": "2026-08-23 11:45:48 +0000",
       "cooked_beef": "2026-08-23 11:32:57 +0000"
     },
     "done": false
+  },
+  "another_furniture:recipes/birch_table": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:47:14 +0000"
+    },
+    "done": true
   },
   "supplementaries:recipe/candle_holders/candle_holder_gray": {
     "criteria": {
@@ -3856,6 +3899,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/birch_window": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 11:47:14 +0000"
+    },
+    "done": true
+  },
   "createbigcannons:recipes/misc/shot_balls": {
     "criteria": {
       "has_iron_ingot": "2026-08-23 11:28:24 +0000"
@@ -3883,6 +3932,12 @@
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2026-08-23 11:32:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:47:14 +0000"
     },
     "done": true
   },
@@ -3928,6 +3983,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:47:14 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/decorations/cooking_pot": {
     "criteria": {
       "has_iron_ingot": "2026-08-23 11:28:24 +0000"
@@ -3949,6 +4010,12 @@
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2026-08-23 11:32:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:47:14 +0000"
     },
     "done": true
   },
@@ -4216,6 +4283,12 @@
     },
     "done": true
   },
+  "another_furniture:recipes/birch_chair": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:47:14 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/daub_brace": {
     "criteria": {
       "has_tag_c_rods_wooden_1": "2026-08-23 11:34:42 +0000"
@@ -4288,6 +4361,12 @@
     },
     "done": true
   },
+  "another_furniture:recipes/birch_shelf": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:47:14 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/clock_block": {
     "criteria": {
       "has_tag_minecraft_planks_1": "2026-08-23 11:31:07 +0000"
@@ -4309,6 +4388,12 @@
   "supplementaries:recipe/candle_holders/candle_holder_orange": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:47:14 +0000"
     },
     "done": true
   },
