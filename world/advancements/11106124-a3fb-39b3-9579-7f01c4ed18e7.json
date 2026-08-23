@@ -2780,6 +2780,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2026-08-23 12:19:34 +0000",
+      "minecraft:flower_forest": "2026-08-23 12:30:16 +0000",
       "minecraft:beach": "2026-08-23 10:37:00 +0000",
       "minecraft:forest": "2026-08-23 10:34:48 +0000",
       "minecraft:mangrove_swamp": "2026-08-23 10:28:31 +0000",
@@ -4318,6 +4319,12 @@
     },
     "done": true
   },
+  "lootr:social": {
+    "criteria": {
+      "opened_chest": "2026-08-23 12:28:33 +0000"
+    },
+    "done": false
+  },
   "bits_n_bobs:recipes/building_blocks/crafting/cyan_chair": {
     "criteria": {
       "has_wool": "2026-08-23 12:20:37 +0000"
@@ -4501,6 +4508,12 @@
   "farmersdelight:recipes/combat/diamond_knife": {
     "criteria": {
       "has_diamond": "2026-08-23 11:32:54 +0000"
+    },
+    "done": true
+  },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2026-08-23 12:28:33 +0000"
     },
     "done": true
   },
