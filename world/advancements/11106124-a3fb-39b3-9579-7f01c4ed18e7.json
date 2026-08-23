@@ -3337,6 +3337,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2026-08-23 11:32:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2026-08-23 11:32:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2026-08-23 11:28:24 +0000"
@@ -3361,6 +3373,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2026-08-23 11:32:54 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/materials/andesite_alloy": {
     "criteria": {
       "has_item": "2026-08-23 11:28:24 +0000"
@@ -3370,6 +3394,12 @@
   "farmersdelight:recipes/cooking/baked_cod_stew": {
     "criteria": {
       "has_any_ingredient": "2026-08-23 11:20:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2026-08-23 11:32:54 +0000"
     },
     "done": true
   },
@@ -3397,15 +3427,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2026-08-23 11:28:24 +0000"
     },
     "done": true
   },
+  "supplementaries:recipe/hat_stand": {
+    "criteria": {
+      "has_tag_minecraft_planks_1": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/notice_board": {
+    "criteria": {
+      "has_tag_minecraft_planks_1": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/blast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_item_minecraft_diamond_1": "2026-08-23 11:32:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2026-08-23 11:32:54 +0000"
     },
     "done": true
   },
@@ -3439,9 +3505,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_axe": "2026-08-23 11:30:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/bed_from_feather_block": {
+    "criteria": {
+      "has_tag_minecraft_planks_2": "2026-08-23 11:31:07 +0000"
     },
     "done": true
   },
@@ -3478,6 +3562,12 @@
   "create:recipes/misc/crafting/kinetics/empty_blaze_burner": {
     "criteria": {
       "has_item": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2026-08-23 11:32:54 +0000"
     },
     "done": true
   },
@@ -3523,6 +3613,18 @@
     },
     "done": true
   },
+  "another_furniture:recipes/oak_shelf": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/candle_holders/candle_holder_white": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-08-23 11:28:24 +0000"
@@ -3553,9 +3655,16 @@
     },
     "done": true
   },
+  "supplementaries:recipe/speaker_block": {
+    "criteria": {
+      "has_tag_minecraft_planks_1": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "chicken": "2026-08-23 11:20:41 +0000"
+      "chicken": "2026-08-23 11:20:41 +0000",
+      "cooked_beef": "2026-08-23 11:32:57 +0000"
     },
     "done": false
   },
@@ -3580,6 +3689,24 @@
   "createbigcannons:recipes/misc/shot_balls": {
     "criteria": {
       "has_iron_ingot": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/oak_chair": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2026-08-23 11:32:54 +0000"
     },
     "done": true
   },
@@ -3613,6 +3740,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2026-08-23 11:32:54 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/candle_holders/candle_holder_cyan": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-08-23 11:28:24 +0000"
@@ -3625,9 +3758,21 @@
     },
     "done": true
   },
+  "supplementaries:recipe/turn_table": {
+    "criteria": {
+      "has_tag_minecraft_planks_1": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/iron_gate": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:31:07 +0000"
     },
     "done": true
   },
@@ -3649,6 +3794,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2026-08-23 11:32:54 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/cannon_2": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-08-23 11:28:24 +0000"
@@ -3667,6 +3818,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/bubble_blower": {
     "criteria": {
       "has_tag_c_ingots_iron_1": "2026-08-23 11:28:24 +0000"
@@ -3676,6 +3833,12 @@
   "supplementaries:recipe/candle_holders/candle_holder_magenta": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2026-08-23 11:32:54 +0000"
     },
     "done": true
   },
@@ -3697,6 +3860,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2026-08-23 11:32:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2026-08-23 11:20:36 +0000"
@@ -3706,6 +3875,12 @@
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2026-08-23 11:32:54 +0000"
     },
     "done": true
   },
@@ -3745,6 +3920,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/wind_vane": {
     "criteria": {
       "has_tag_c_ingots_iron_1": "2026-08-23 11:28:24 +0000"
@@ -3754,6 +3935,12 @@
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:31:07 +0000"
     },
     "done": true
   },
@@ -3793,6 +3980,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/cannon": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-08-23 11:28:24 +0000"
@@ -3805,9 +3998,33 @@
     },
     "done": true
   },
+  "another_furniture:recipes/oak_table": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/cage": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/clock_block": {
+    "criteria": {
+      "has_tag_minecraft_planks_1": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/oak_window": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 11:31:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_axe": "2026-08-23 11:30:15 +0000"
     },
     "done": true
   },
@@ -3826,6 +4043,12 @@
   "supplementaries:recipe/candle_holders/candle_holder": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2026-08-23 11:32:54 +0000"
     },
     "done": true
   },

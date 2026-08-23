@@ -3465,6 +3465,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_chicken": "2026-08-23 11:31:09 +0000",
       "cooked_beef": "2026-08-23 10:37:52 +0000"
     },
     "done": false
@@ -3475,9 +3476,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
   "bits_n_bobs:recipes/building_blocks/calcite_tiles_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_white": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/granite_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_blue": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
     },
     "done": true
   },
@@ -3490,6 +3515,18 @@
   "create:recipes/building_blocks/polished_cut_andesite_stairs_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_granite_brick_slab_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_lime": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
     },
     "done": true
   },
@@ -3517,6 +3554,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/checker": {
+    "criteria": {
+      "has_item_minecraft_cobblestone_1": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_yellow": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
   "bits_n_bobs:recipes/building_blocks/diorite_tile_wall_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
@@ -3535,9 +3596,21 @@
     },
     "done": true
   },
+  "supplementaries:recipe/flags/flag_green": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2026-08-23 10:52:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2026-08-23 11:30:29 +0000"
     },
     "done": true
   },
@@ -3547,9 +3620,21 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/small_granite_brick_stairs_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/small_diorite_brick_slab_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
+    },
+    "done": true
+  },
+  "bits_n_bobs:recipes/building_blocks/granite_tile_slab_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
     },
     "done": true
   },
@@ -3565,9 +3650,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_granite_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
   "createbigcannons:recipes/misc/mortar_stone": {
     "criteria": {
       "has_stone": "2026-08-23 10:46:17 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_black": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/timber_cross_brace": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/acacia_drawer": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_granite_brick_stairs_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_red": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
     },
     "done": true
   },
@@ -3577,9 +3704,21 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/polished_cut_granite_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2026-08-23 10:47:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-08-23 11:33:26 +0000"
     },
     "done": true
   },
@@ -3607,15 +3746,51 @@
     },
     "done": true
   },
+  "another_furniture:recipes/cherry_drawer": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/polished_cut_andesite_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/daub_cross_brace": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/awnings/awning": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/blast_armor_trim_smithing_template": {
     "criteria": {
       "has_item_minecraft_diamond_1": "2026-08-23 10:52:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-08-23 11:30:28 +0000"
     },
     "done": true
   },
@@ -3637,6 +3812,18 @@
     },
     "done": true
   },
+  "supplementaries:recipe/relayer": {
+    "criteria": {
+      "has_item_minecraft_cobblestone_2": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
   "bits_n_bobs:recipes/building_blocks/diorite_tile_slab_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
@@ -3649,15 +3836,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/layered_andesite_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/faucet": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_diorite_stairs_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
+    },
+    "done": true
+  },
+  "bits_n_bobs:recipes/building_blocks/granite_tile_wall_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
     },
     "done": true
   },
@@ -3685,6 +3896,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_calcite_slab_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
@@ -3709,6 +3938,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2026-08-23 11:34:28 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/daub_frame": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_light_gray": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/timber_brace": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
   "bits_n_bobs:recipes/building_blocks/calcite_tile_stairs_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
@@ -3724,6 +3977,30 @@
   "minecraft:recipes/decorations/diorite_wall": {
     "criteria": {
       "has_diorite": "2026-08-23 10:47:37 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/warped_drawer": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_brown": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_orange": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_granite_slab_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
     },
     "done": true
   },
@@ -3751,9 +4028,21 @@
     },
     "done": true
   },
+  "another_furniture:recipes/jungle_drawer": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_calcite_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_granite_wall_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
     },
     "done": true
   },
@@ -3766,6 +4055,18 @@
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2026-08-23 10:47:37 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_granite_brick_slab_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-08-23 11:33:26 +0000"
     },
     "done": true
   },
@@ -3799,6 +4100,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/polished_cut_diorite_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
@@ -3808,6 +4115,12 @@
   "create:recipes/building_blocks/polished_cut_diorite_slab_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/mangrove_drawer": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:33:26 +0000"
     },
     "done": true
   },
@@ -3829,6 +4142,24 @@
     },
     "done": true
   },
+  "another_furniture:recipes/furniture_hammer": {
+    "criteria": {
+      "has_stick": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "bits_n_bobs:recipes/building_blocks/granite_tiles_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/birch_drawer": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
       "has_diorite": "2026-08-23 10:47:37 +0000"
@@ -3838,6 +4169,12 @@
   "create:recipes/building_blocks/small_calcite_brick_wall_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/oak_drawer": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:33:26 +0000"
     },
     "done": true
   },
@@ -3871,6 +4208,18 @@
     },
     "done": true
   },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_stairs": {
     "criteria": {
       "has_andesite": "2026-08-23 10:46:22 +0000"
@@ -3901,9 +4250,57 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/cut_granite_slab_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/dark_oak_drawer": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/crank": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/wicker_fence": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_calcite_bricks_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_cyan": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
     },
     "done": true
   },
@@ -3931,9 +4328,21 @@
     },
     "done": true
   },
+  "another_furniture:recipes/spruce_drawer": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_andesite_bricks_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2026-08-23 11:30:29 +0000"
     },
     "done": true
   },
@@ -3961,9 +4370,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/layered_calcite_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2026-08-23 11:30:29 +0000"
     },
     "done": true
   },
@@ -3991,9 +4430,33 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/granite_pillar_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_granite_wall_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/lapis_bricks": {
     "criteria": {
       "has_item_minecraft_lapis_lazuli_1": "2026-08-23 10:45:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/bamboo_drawer": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:33:26 +0000"
     },
     "done": true
   },
@@ -4033,6 +4496,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/polished_cut_calcite_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
@@ -4051,15 +4520,45 @@
     },
     "done": true
   },
+  "bits_n_bobs:recipes/building_blocks/granite_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2026-08-23 10:45:43 +0000"
     },
     "done": true
   },
+  "create:recipes/building_blocks/cut_granite_brick_wall_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/flint_knife": {
+    "criteria": {
+      "has_stick": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/small_calcite_brick_slab_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_granite_stairs_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_granite_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
     },
     "done": true
   },
@@ -4093,9 +4592,45 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/small_granite_brick_wall_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/timber_frame": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_calcite_brick_slab_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_purple": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_granite_bricks_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/daub_brace": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/slingshot": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-08-23 11:33:26 +0000"
     },
     "done": true
   },
@@ -4108,6 +4643,12 @@
   "create:recipes/building_blocks/polished_cut_calcite_wall_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_pink": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
     },
     "done": true
   },
@@ -4147,15 +4688,39 @@
     },
     "done": true
   },
+  "another_furniture:recipes/crimson_drawer": {
+    "criteria": {
+      "has_planks": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_andesite_stairs_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
     },
     "done": true
   },
+  "create:recipes/building_blocks/cut_granite_stairs_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_granite_bricks_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_andesite": "2026-08-23 10:46:22 +0000"
+    },
+    "done": true
+  },
+  "bits_n_bobs:recipes/building_blocks/granite_tile_stairs_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
     },
     "done": true
   },
@@ -4171,15 +4736,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2026-08-23 10:47:37 +0000"
     },
     "done": true
   },
+  "farmersdelight:recipes/decorations/cutting_board": {
+    "criteria": {
+      "has_stick": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_magenta": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_light_blue": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
   "bits_n_bobs:recipes/building_blocks/diorite_tile_stairs_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_gray": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2026-08-23 11:30:28 +0000"
     },
     "done": true
   },
