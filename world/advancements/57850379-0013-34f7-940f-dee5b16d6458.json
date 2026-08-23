@@ -3965,8 +3965,10 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2026-08-15 12:07:53 +0000",
-      "minecraft:cave_spider": "2026-08-10 08:18:32 +0000",
       "minecraft:skeleton": "2026-08-08 09:52:55 +0000",
+      "minecraft:phantom": "2026-08-23 10:42:50 +0000",
+      "minecraft:hoglin": "2026-08-15 11:36:28 +0000",
+      "minecraft:cave_spider": "2026-08-10 08:18:32 +0000",
       "minecraft:piglin": "2026-08-15 11:36:15 +0000",
       "minecraft:enderman": "2026-08-09 04:47:43 +0000",
       "minecraft:silverfish": "2026-08-10 08:29:32 +0000",
@@ -3974,8 +3976,7 @@
       "minecraft:zombie": "2026-08-08 10:02:52 +0000",
       "minecraft:creeper": "2026-08-08 10:04:07 +0000",
       "minecraft:drowned": "2026-08-08 13:38:08 +0000",
-      "minecraft:slime": "2026-08-10 08:26:46 +0000",
-      "minecraft:hoglin": "2026-08-15 11:36:28 +0000"
+      "minecraft:slime": "2026-08-10 08:26:46 +0000"
     },
     "done": false
   },

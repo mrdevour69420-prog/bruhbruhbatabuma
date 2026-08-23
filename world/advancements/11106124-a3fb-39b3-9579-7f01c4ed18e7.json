@@ -5,33 +5,15 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/soul_resin_brick_slab_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/redstone/building/chests/trapped_birch_chest": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/bright_resin_brick_stairs": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/misc/building/crafting/hollowlogs/hollow_blossom_log": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/melted_resin_brick_stairs_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -71,21 +53,9 @@
     },
     "done": true
   },
-  "quark:recipes/decorations/world/crafting/woodsets/azalea/azalea_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/walls/calcite_wall": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "ecologics:recipes/ecologics/azalea_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
     },
     "done": true
   },
@@ -185,12 +155,6 @@
     },
     "done": true
   },
-  "create:root": {
-    "criteria": {
-      "0": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/raw_copper_bricks": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -209,27 +173,9 @@
     },
     "done": true
   },
-  "alloyed:recipes/alloyed.main_group/smithing/steel_helmet": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/misc/building/crafting/panes/red_framed_glass_pane": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/melted_resin_brick_slab_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/smithing/steel_shovel": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -239,21 +185,9 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/bright_resin_brick_slab": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/iron_plate": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/smoked_resin_brick_stairs": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -290,30 +224,6 @@
   "quark:recipes/misc/building/crafting/ladders/spruce_ladder": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_wall": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_stairs_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/smoked_resin_brick_wall": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -407,12 +317,6 @@
     },
     "done": true
   },
-  "alloyed:recipes/alloyed.main_group/smithing/steel_fishing_rod": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/world/crafting/woodsets/blossom/lavender_blossom_leaf_carpet": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -428,18 +332,6 @@
   "quark:recipes/misc/building/crafting/glass/light_blue_framed_glass": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/smoked_resin_brick_slab_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/smoked_soul_resin_brick_slab": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -521,21 +413,9 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/smoked_soul_resin_brick_slab_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/misc/tweaks/crafting/utility/better_stone_tools/hoe": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/bright_soul_resin_brick_wall": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -701,39 +581,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/redstone/building/chests/trapped_cherry_chest": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/bright_soul_resin_brick_stairs_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/posts/crimson_post": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/crafting/bronze/bronze_block": {
-    "criteria": {
-      "has_bronze_ingot": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_logs": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -746,12 +602,6 @@
   "jodek:armor_stand_arms": {
     "criteria": {
       "tick": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_slab_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -809,12 +659,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/chiseled_myalite_bricks": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -824,12 +668,6 @@
   "quark:recipes/misc/building/crafting/compressed/sugar_cane_blockuncompress": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/melted_resin_brick_wall": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -866,12 +704,6 @@
   "quark:recipes/misc/tweaks/crafting/utility/chest_boat/direct_oak_chest_boat": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/smithing/steel_leggings": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -977,12 +809,6 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/bright_soul_resin_brick_slab_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/posts/warped_post": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -1013,12 +839,6 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/soul_resin_brick_wall": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/world/crafting/woodsets/blossom/yellow_blossom_hedge": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -1028,12 +848,6 @@
   "quark:recipes/building_blocks/building/crafting/sturdy_stone": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/bright_soul_resin_brick_stairs": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -1055,12 +869,6 @@
     },
     "done": true
   },
-  "alloyed:recipes/alloyed.main_group/smithing/steel_hoe": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/stonevariants/chiseled_granite_bricks": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -1070,12 +878,6 @@
   "quark:recipes/misc/tweaks/crafting/glass/green_glass": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/crafting/steel_ingot_from_decompacting": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -1157,12 +959,6 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/bright_resin_brick_wall": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/walls/raw_gold_bricks_wall": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -1172,12 +968,6 @@
   "quark:recipes/misc/tweaks/crafting/utility/misc/chest_minecart": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
     },
     "done": true
   },
@@ -1196,12 +986,6 @@
   "quark:recipes/building_blocks/building/crafting/walls/calcite_bricks_wall": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/stonecutting/steel_sheet_metal_from_steel_block": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -1253,30 +1037,6 @@
     },
     "done": true
   },
-  "alloyed:recipes/alloyed.main_group/smithing/steel_chestplate": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/melted_resin_brick_stairs": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/melted_resin_brick_slab": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/redstone/building/chests/trapped_warped_chest": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -1322,12 +1082,6 @@
   "quark:recipes/building_blocks/world/crafting/walls/shale_bricks_wall": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "quark:recipes/decorations/world/crafting/woodsets/ancient/ancient_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
     },
     "done": true
   },
@@ -1397,12 +1151,6 @@
     },
     "done": true
   },
-  "ecologics:recipes/ecologics/coconut_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/misc/building/chests/birch_chest_wood": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -1424,12 +1172,6 @@
   "quark:recipes/building_blocks/world/crafting/woodsets/azalea/azalea_hedge": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/smoked_resin_brick_slab": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -1469,12 +1211,6 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_stairs": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/misc/tweaks/crafting/glass/blue_glass": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -1487,18 +1223,6 @@
     },
     "done": true
   },
-  "ecologics:recipes/ecologics/flowering_azalea_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/smoked_soul_resin_brick_wall": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/chiseled_shale_bricks": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -1508,12 +1232,6 @@
   "quark:recipes/building_blocks/building/crafting/leafcarpet/mangrove_leaf_carpet": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/crafting/steel_door": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -1541,18 +1259,6 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/bright_resin_brick_slab_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/smithing/steel_boots": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/shingles/gray_shingles": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -1562,12 +1268,6 @@
   "quark:recipes/misc/tweaks/crafting/utility/better_stone_tools/shovel": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/soul_resin_brick_stairs": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -1721,39 +1421,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/smoked_resin_brick_stairs_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/tweaks/crafting/panes/dirty_glass_pane": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/soul_resin_brick_wall_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/shingles/yellow_shingles": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/crafting/bronze_bell": {
-    "criteria": {
-      "has_bronze_ingot": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -1787,21 +1463,9 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/smoked_soul_resin_brick_stairs_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/redstone/building/chests/trapped_acacia_chest": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/crafting/steel_trapdoor": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -1832,12 +1496,6 @@
   "quark:recipes/redstone/building/chests/trapped_spruce_chest": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/melted_resin_brick_wall_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -1898,12 +1556,6 @@
   "quark:recipes/misc/tweaks/crafting/glass/yellow_glass": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/crafting/bronze_ingot_from_decompacting": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -1973,21 +1625,9 @@
     },
     "done": true
   },
-  "simulated:root": {
-    "criteria": {
-      "0": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/misc/building/crafting/hollowlogs/hollow_jungle_log": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/soul_resin_brick_slab": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -2045,27 +1685,9 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/smoked_soul_resin_brick_stairs": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/posts/stripped_bamboo_post": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/smithing/steel_sword": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -2090,12 +1712,6 @@
   "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/myalite_bricks": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "aeronautics:root": {
-    "criteria": {
-      "0": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -2135,18 +1751,6 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/smoked_resin_brick_wall_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
-  "ecologics:recipes/ecologics/walnut_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/misc/tweaks/crafting/utility/chest_boat/direct_acacia_chest_boat": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -2156,12 +1760,6 @@
   "quark:recipes/misc/building/crafting/hollowlogs/hollow_azalea_log": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/smithing/steel_shears": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -2213,12 +1811,6 @@
     },
     "done": true
   },
-  "create_enchantment_industry:root": {
-    "criteria": {
-      "0": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/misc/tweaks/crafting/utility/misc/tnt_minecart": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -2228,12 +1820,6 @@
   "quark:recipes/misc/building/crafting/panes/purple_framed_glass_pane": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/smoked_soul_resin_brick_wall_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -2261,12 +1847,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/hedges/mangrove_hedge": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -2282,12 +1862,6 @@
   "quark:recipes/redstone/world/crafting/woodsets/azalea/azalea_trapped_chest": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "sliceanddice:recipes/misc/slicer": {
-    "criteria": {
-      "has_tool": "2026-08-23 10:41:20 +0000"
     },
     "done": true
   },
@@ -2357,12 +1931,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_by_something": "2026-08-23 10:38:07 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/shingles/purple_shingles_dye": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -2375,21 +1943,9 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_slab": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/misc/building/crafting/compressed/stick_blockuncompress": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/bright_soul_resin_brick_wall_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -2414,12 +1970,6 @@
   "quark:recipes/misc/building/crafting/ladders/birch_ladder": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_wall_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -2489,21 +2039,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_wood": {
-    "criteria": {
-      "has_log": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/shingles/white_shingles_dye": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "quark:recipes/decorations/world/crafting/woodsets/blossom/blossom_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
     },
     "done": true
   },
@@ -2579,12 +2117,6 @@
     },
     "done": true
   },
-  "alloyed:recipes/alloyed.main_group/smithing/steel_pickaxe": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/leafcarpet/dark_oak_leaf_carpet": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -2621,12 +2153,6 @@
     },
     "done": true
   },
-  "supplementaries:recipe/fine_wood": {
-    "criteria": {
-      "has_tag_minecraft_logs_1": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/jasper_pillar": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -2645,21 +2171,9 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/bright_soul_resin_brick_slab": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/walls/cobblestone_bricks_wall": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/smithing/steel_axe": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -2702,12 +2216,6 @@
   "quark:recipes/building_blocks/building/crafting/chiseled_soul_sandstone": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/crafting/steel_block_from_compacting": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -2777,12 +2285,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/shingles/cyan_shingles_dye": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -2816,12 +2318,6 @@
   "quark:recipes/building_blocks/building/crafting/shingles/green_shingles": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:28:45 +0000"
     },
     "done": true
   },
@@ -2927,12 +2423,6 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/bright_resin_brick_stairs_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/raw_copper_bricks_revert": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -2966,12 +2456,6 @@
   "quark:recipes/misc/building/crafting/thatch_revert": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "alloyed:recipes/alloyed.main_group/crafting/steel_bars": {
-    "criteria": {
-      "has_ingredient": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -3011,12 +2495,6 @@
     },
     "done": true
   },
-  "alloyed:recipes/alloyed.main_group/steel_scaffolding_from_ingots_steel_stonecutting": {
-    "criteria": {
-      "has_ingots_steel": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/misc/building/crafting/chests/bamboo_chest": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -3044,12 +2522,6 @@
   "quark:recipes/misc/tweaks/crafting/glass/purple_glass": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/root": {
-    "criteria": {
-      "seeds": "2026-08-23 10:35:44 +0000"
     },
     "done": true
   },
@@ -3203,29 +2675,11 @@
     },
     "done": true
   },
-  "brick_and_mortar:recipes/building_blocks/bright_resin_brick_wall_stonecutting": {
-    "criteria": {
-      "has_base": "2026-08-23 10:35:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/stonevariants/granite_pillar": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:beach": "2026-08-23 10:37:00 +0000",
-      "minecraft:forest": "2026-08-23 10:34:48 +0000",
-      "minecraft:mangrove_swamp": "2026-08-23 10:28:31 +0000",
-      "minecraft:river": "2026-08-23 10:40:16 +0000",
-      "minecraft:swamp": "2026-08-23 10:29:09 +0000",
-      "minecraft:birch_forest": "2026-08-23 10:34:34 +0000",
-      "minecraft:windswept_savanna": "2026-08-23 10:39:21 +0000"
-    },
-    "done": false
   },
   "quark:recipes/misc/building/crafting/hollowlogs/hollow_crimson_stem": {
     "criteria": {
@@ -3311,6 +2765,554 @@
     },
     "done": true
   },
+  "quark:recipes/misc/world/crafting/woodsets/azalea/azalea_ladder": {
+    "criteria": {
+      "test": "2026-08-23 10:28:30 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/sandstone_bricks_wall": {
+    "criteria": {
+      "test": "2026-08-23 10:28:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2026-08-23 10:37:00 +0000",
+      "minecraft:forest": "2026-08-23 10:34:48 +0000",
+      "minecraft:mangrove_swamp": "2026-08-23 10:28:31 +0000",
+      "minecraft:river": "2026-08-23 10:40:16 +0000",
+      "minecraft:swamp": "2026-08-23 10:29:09 +0000",
+      "minecraft:birch_forest": "2026-08-23 10:34:34 +0000",
+      "minecraft:savanna": "2026-08-23 10:47:01 +0000",
+      "minecraft:windswept_savanna": "2026-08-23 10:39:21 +0000",
+      "minecraft:plains": "2026-08-23 10:47:00 +0000"
+    },
+    "done": false
+  },
+  "quark:recipes/decorations/world/crafting/woodsets/azalea/azalea_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/azalea_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/decorations/world/crafting/woodsets/ancient/ancient_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/coconut_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/flowering_azalea_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/decorations/world/crafting/woodsets/blossom/blossom_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:28:45 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/soul_resin_brick_slab_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/bright_resin_brick_stairs": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/melted_resin_brick_stairs_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/smithing/steel_helmet": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/melted_resin_brick_slab_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/smithing/steel_shovel": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/bright_resin_brick_slab": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/smoked_resin_brick_stairs": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_wall": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_stairs_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/smoked_resin_brick_wall": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/smithing/steel_fishing_rod": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/smoked_resin_brick_slab_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/smoked_soul_resin_brick_slab": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/smoked_soul_resin_brick_slab_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/bright_soul_resin_brick_wall": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/bright_soul_resin_brick_stairs_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/crafting/bronze/bronze_block": {
+    "criteria": {
+      "has_bronze_ingot": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_slab_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/melted_resin_brick_wall": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/smithing/steel_leggings": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/bright_soul_resin_brick_slab_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/soul_resin_brick_wall": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/bright_soul_resin_brick_stairs": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/smithing/steel_hoe": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/crafting/steel_ingot_from_decompacting": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/bright_resin_brick_wall": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/stonecutting/steel_sheet_metal_from_steel_block": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/smithing/steel_chestplate": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/melted_resin_brick_stairs": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/melted_resin_brick_slab": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/smoked_resin_brick_slab": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_stairs": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/smoked_soul_resin_brick_wall": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/crafting/steel_door": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/bright_resin_brick_slab_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/smithing/steel_boots": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/soul_resin_brick_stairs": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/smoked_resin_brick_stairs_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/soul_resin_brick_wall_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/crafting/bronze_bell": {
+    "criteria": {
+      "has_bronze_ingot": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/smoked_soul_resin_brick_stairs_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/crafting/steel_trapdoor": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/melted_resin_brick_wall_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/crafting/bronze_ingot_from_decompacting": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "simulated:root": {
+    "criteria": {
+      "0": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/soul_resin_brick_slab": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/smoked_soul_resin_brick_stairs": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/smithing/steel_sword": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "aeronautics:root": {
+    "criteria": {
+      "0": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/smoked_resin_brick_wall_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/smithing/steel_shears": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:root": {
+    "criteria": {
+      "0": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/smoked_soul_resin_brick_wall_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_slab": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/bright_soul_resin_brick_wall_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_wall_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/smithing/steel_pickaxe": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/fine_wood": {
+    "criteria": {
+      "has_tag_minecraft_logs_1": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/bright_soul_resin_brick_slab": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/smithing/steel_axe": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/crafting/steel_block_from_compacting": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/bright_resin_brick_stairs_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/crafting/steel_bars": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "alloyed:recipes/alloyed.main_group/steel_scaffolding_from_ingots_steel_stonecutting": {
+    "criteria": {
+      "has_ingots_steel": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/building_blocks/bright_resin_brick_wall_stonecutting": {
+    "criteria": {
+      "has_base": "2026-08-23 10:35:44 +0000"
+    },
+    "done": true
+  },
   "alloyed:recipes/alloyed.main_group/steel_ladder_from_plates_steel_stonecutting": {
     "criteria": {
       "has_plates_steel": "2026-08-23 10:35:44 +0000"
@@ -3323,15 +3325,15 @@
     },
     "done": true
   },
-  "quark:recipes/misc/world/crafting/woodsets/azalea/azalea_ladder": {
+  "minecraft:adventure/root": {
     "criteria": {
-      "test": "2026-08-23 10:28:30 +0000"
+      "killed_by_something": "2026-08-23 10:38:07 +0000"
     },
     "done": true
   },
-  "quark:recipes/building_blocks/building/crafting/walls/sandstone_bricks_wall": {
+  "sliceanddice:recipes/misc/slicer": {
     "criteria": {
-      "test": "2026-08-23 10:28:30 +0000"
+      "has_tool": "2026-08-23 10:41:20 +0000"
     },
     "done": true
   },
