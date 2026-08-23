@@ -2788,6 +2788,7 @@
       "minecraft:deep_cold_ocean": "2026-08-23 12:19:35 +0000",
       "minecraft:old_growth_birch_forest": "2026-08-23 11:41:09 +0000",
       "minecraft:ocean": "2026-08-23 12:19:20 +0000",
+      "minecraft:cherry_grove": "2026-08-23 12:39:46 +0000",
       "minecraft:sunflower_plains": "2026-08-23 12:21:17 +0000",
       "minecraft:swamp": "2026-08-23 10:29:09 +0000",
       "minecraft:birch_forest": "2026-08-23 10:34:34 +0000",
@@ -4092,6 +4093,7 @@
     "criteria": {
       "chicken": "2026-08-23 11:20:41 +0000",
       "cooked_chicken": "2026-08-23 11:38:47 +0000",
+      "honey_bottle": "2026-08-23 12:39:42 +0000",
       "cooked_mutton": "2026-08-23 11:45:48 +0000",
       "cooked_beef": "2026-08-23 11:32:57 +0000"
     },
@@ -4243,6 +4245,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:spider": "2026-08-23 12:42:21 +0000",
       "minecraft:zombie": "2026-08-23 11:18:40 +0000"
     },
     "done": false
