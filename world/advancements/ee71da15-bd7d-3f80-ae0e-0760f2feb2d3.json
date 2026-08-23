@@ -3536,6 +3536,12 @@
     },
     "done": true
   },
+  "ecologics:recipes/ecologics/crab_meat_from_smoking": {
+    "criteria": {
+      "crab_meat": "2026-08-23 12:17:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2026-08-23 10:52:59 +0000"
@@ -3569,6 +3575,12 @@
   "supplementaries:recipe/checker": {
     "criteria": {
       "has_item_minecraft_cobblestone_1": "2026-08-23 11:30:28 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2026-08-23 12:20:26 +0000"
     },
     "done": true
   },
@@ -3614,6 +3626,12 @@
     },
     "done": true
   },
+  "ecologics:recipes/ecologics/crab_meat_from_campfire_cooking": {
+    "criteria": {
+      "crab_meat": "2026-08-23 12:17:01 +0000"
+    },
+    "done": true
+  },
   "bits_n_bobs:recipes/building_blocks/andesite_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
@@ -3629,6 +3647,12 @@
   "create:recipes/building_blocks/small_diorite_brick_slab_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-08-23 12:20:26 +0000"
     },
     "done": true
   },
@@ -3695,6 +3719,12 @@
   "supplementaries:recipe/flags/flag_red": {
     "criteria": {
       "has_tag_c_rods_wooden_2": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/cooking/egg_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-08-23 12:20:26 +0000"
     },
     "done": true
   },
@@ -3779,6 +3809,12 @@
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2026-08-23 11:33:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2026-08-23 12:21:12 +0000"
     },
     "done": true
   },
@@ -3929,6 +3965,12 @@
   "create:recipes/building_blocks/cut_diorite_bricks_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/tropical_stew": {
+    "criteria": {
+      "has_crab_meat": "2026-08-23 12:18:33 +0000"
     },
     "done": true
   },
@@ -4280,6 +4322,12 @@
     },
     "done": true
   },
+  "supplementaries:recipe/integration/pancake_fd": {
+    "criteria": {
+      "has_tag_c_eggs_4": "2026-08-23 12:20:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2026-08-23 11:30:28 +0000"
@@ -4400,6 +4448,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-08-23 12:21:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2026-08-23 11:30:29 +0000"
@@ -4460,6 +4514,12 @@
     },
     "done": true
   },
+  "ecologics:recipes/ecologics/crab_meat": {
+    "criteria": {
+      "crab_meat": "2026-08-23 12:17:01 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_andesite_wall_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
@@ -4502,15 +4562,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2026-08-23 12:21:12 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/polished_cut_calcite_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
     },
     "done": true
   },
+  "farmersdelight:recipes/food/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2026-08-23 12:20:26 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/combat/diamond_knife": {
     "criteria": {
       "has_diamond": "2026-08-23 10:52:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2026-08-23 12:20:26 +0000"
     },
     "done": true
   },
@@ -4553,6 +4631,12 @@
   "create:recipes/building_blocks/polished_cut_granite_stairs_from_stone_types_granite_stonecutting": {
     "criteria": {
       "has_stone_types_granite": "2026-08-23 11:30:29 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/fine_wood": {
+    "criteria": {
+      "has_tag_minecraft_logs_1": "2026-08-23 12:21:12 +0000"
     },
     "done": true
   },
@@ -4640,6 +4724,18 @@
     },
     "done": true
   },
+  "mynethersdelight:recipes/cooking/scotch_eggs": {
+    "criteria": {
+      "has_any_ingredient": "2026-08-23 12:20:26 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2026-08-23 12:20:26 +0000"
+    },
+    "done": true
+  },
   "quark:recipes/building_blocks/building/crafting/slabs/calcite_slab": {
     "criteria": {
       "has_calcite": "2026-08-23 11:09:01 +0000"
@@ -4685,6 +4781,12 @@
   "create:recipes/building_blocks/calcite_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/cooking/boiled_eggs": {
+    "criteria": {
+      "has_any_ingredient": "2026-08-23 12:20:26 +0000"
     },
     "done": true
   },
@@ -4793,6 +4895,12 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2026-08-23 10:52:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg": {
+    "criteria": {
+      "fried_egg": "2026-08-23 12:20:26 +0000"
     },
     "done": true
   },
