@@ -2761,16 +2761,17 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2026-08-08 13:53:09 +0000",
       "minecraft:beach": "2026-08-08 13:38:03 +0000",
+      "minecraft:dark_forest": "2026-08-23 11:40:39 +0000",
       "minecraft:forest": "2026-08-08 13:41:48 +0000",
       "minecraft:mangrove_swamp": "2026-08-08 13:37:37 +0000",
-      "minecraft:ocean": "2026-08-23 11:38:12 +0000",
       "minecraft:river": "2026-08-08 13:40:47 +0000",
-      "minecraft:swamp": "2026-08-08 13:43:00 +0000",
-      "minecraft:birch_forest": "2026-08-08 13:43:23 +0000",
       "minecraft:lush_caves": "2026-08-08 13:52:24 +0000",
       "minecraft:dripstone_caves": "2026-08-08 13:53:28 +0000",
+      "minecraft:old_growth_birch_forest": "2026-08-08 13:53:09 +0000",
+      "minecraft:ocean": "2026-08-23 11:38:12 +0000",
+      "minecraft:swamp": "2026-08-08 13:43:00 +0000",
+      "minecraft:birch_forest": "2026-08-08 13:43:23 +0000",
       "minecraft:windswept_savanna": "2026-08-08 13:40:56 +0000",
       "minecraft:plains": "2026-08-08 13:41:29 +0000"
     },
@@ -6592,6 +6593,12 @@
       "opened_chest": "2026-08-23 11:28:24 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2026-08-23 11:43:02 +0000"
+    },
+    "done": true
   },
   "minecraft:nether/find_fortress": {
     "criteria": {

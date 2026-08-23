@@ -2779,6 +2779,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_birch_forest": "2026-08-23 11:41:09 +0000",
       "minecraft:beach": "2026-08-23 10:37:00 +0000",
       "minecraft:forest": "2026-08-23 10:34:48 +0000",
       "minecraft:mangrove_swamp": "2026-08-23 10:28:31 +0000",
@@ -3505,6 +3506,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2026-08-23 11:41:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2026-08-23 11:34:42 +0000"
@@ -3909,6 +3916,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2026-08-23 11:41:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_iron_ingot": "2026-08-23 11:28:24 +0000"
@@ -4242,6 +4255,12 @@
   "supplementaries:recipe/cannon": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/food/mushroom_stew_from_coconut_husk": {
+    "criteria": {
+      "has_bowl": "2026-08-23 11:40:33 +0000"
     },
     "done": true
   },
