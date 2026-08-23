@@ -4634,6 +4634,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2026-08-23 12:02:51 +0000"
+    },
+    "done": true
+  },
   "quark:recipes/building_blocks/building/crafting/slabs/calcite_slab": {
     "criteria": {
       "has_calcite": "2026-08-23 11:09:01 +0000"
