@@ -3475,6 +3475,12 @@
     },
     "done": true
   },
+  "bits_n_bobs:recipes/building_blocks/calcite_tiles_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
   "quark:recipes/building_blocks/world/crafting/slabs/limestone_slab": {
     "criteria": {
       "has_limestone": "2026-08-23 10:46:17 +0000"
@@ -3502,6 +3508,12 @@
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2026-08-23 10:52:59 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
     },
     "done": true
   },
@@ -3541,6 +3553,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/small_calcite_brick_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2026-08-23 10:52:59 +0000"
@@ -3571,6 +3589,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/calcite_pillar_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/diorite_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
@@ -3598,6 +3622,12 @@
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2026-08-23 10:52:59 +0000"
+    },
+    "done": true
+  },
+  "bits_n_bobs:recipes/building_blocks/calcite_tile_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
     },
     "done": true
   },
@@ -3655,6 +3685,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/cut_calcite_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_slab": {
     "criteria": {
       "has_diorite": "2026-08-23 10:47:37 +0000"
@@ -3670,6 +3706,12 @@
   "bits_n_bobs:recipes/building_blocks/andesite_tiles_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
+    },
+    "done": true
+  },
+  "bits_n_bobs:recipes/building_blocks/calcite_tile_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
     },
     "done": true
   },
@@ -3703,6 +3745,18 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/polished_cut_calcite_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/andesite_pillar_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
@@ -3724,6 +3778,18 @@
   "create:recipes/building_blocks/polished_cut_andesite_wall_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_bricks_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
     },
     "done": true
   },
@@ -3751,6 +3817,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/cut_calcite_brick_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2026-08-23 10:47:37 +0000"
@@ -3760,6 +3832,12 @@
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
       "has_diorite": "2026-08-23 10:47:37 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_brick_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
     },
     "done": true
   },
@@ -3805,6 +3883,12 @@
     },
     "done": true
   },
+  "quark:recipes/building_blocks/building/crafting/slabs/calcite_stairs": {
+    "criteria": {
+      "has_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
   "bits_n_bobs:recipes/building_blocks/andesite_tile_stairs_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
@@ -3814,6 +3898,12 @@
   "create:recipes/building_blocks/cut_diorite_brick_slab_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_bricks_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
     },
     "done": true
   },
@@ -3835,6 +3925,12 @@
     },
     "done": true
   },
+  "bits_n_bobs:recipes/building_blocks/calcite_tile_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_andesite_bricks_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2026-08-23 10:46:22 +0000"
@@ -3847,6 +3943,12 @@
     },
     "done": true
   },
+  "bits_n_bobs:recipes/building_blocks/calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
   "bits_n_bobs:recipes/building_blocks/diorite_tiles_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
@@ -3856,6 +3958,12 @@
   "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
       "has_raw_gold": "2026-08-23 10:57:28 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
     },
     "done": true
   },
@@ -3874,6 +3982,12 @@
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2026-08-23 10:47:37 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
     },
     "done": true
   },
@@ -3919,6 +4033,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/polished_cut_calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/combat/diamond_knife": {
     "criteria": {
       "has_diamond": "2026-08-23 10:52:59 +0000"
@@ -3934,6 +4054,12 @@
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2026-08-23 10:45:43 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_brick_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
     },
     "done": true
   },
@@ -3967,6 +4093,24 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/cut_calcite_brick_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/slabs/calcite_slab": {
+    "criteria": {
+      "has_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/polished_cut_diorite_wall_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2026-08-23 10:47:37 +0000"
@@ -3988,6 +4132,18 @@
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2026-08-23 10:46:22 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_brick_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2026-08-23 11:09:01 +0000"
     },
     "done": true
   },

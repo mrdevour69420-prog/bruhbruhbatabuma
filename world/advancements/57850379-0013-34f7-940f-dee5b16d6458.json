@@ -9011,6 +9011,12 @@
     },
     "done": true
   },
+  "supplementaries:recipe/soap/tipped_arrow": {
+    "criteria": {
+      "has_item_minecraft_tipped_arrow_1": "2026-08-23 11:11:46 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/gantry_shaft": {
     "criteria": {
       "has_item": "2026-08-23 10:58:18 +0000"
