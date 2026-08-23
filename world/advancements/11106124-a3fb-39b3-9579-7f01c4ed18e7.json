@@ -2784,7 +2784,9 @@
       "minecraft:beach": "2026-08-23 10:37:00 +0000",
       "minecraft:forest": "2026-08-23 10:34:48 +0000",
       "minecraft:mangrove_swamp": "2026-08-23 10:28:31 +0000",
+      "minecraft:sparse_jungle": "2026-08-23 12:47:54 +0000",
       "minecraft:river": "2026-08-23 10:40:16 +0000",
+      "minecraft:lukewarm_ocean": "2026-08-23 12:49:18 +0000",
       "minecraft:deep_cold_ocean": "2026-08-23 12:19:35 +0000",
       "minecraft:old_growth_birch_forest": "2026-08-23 11:41:09 +0000",
       "minecraft:ocean": "2026-08-23 12:19:20 +0000",
@@ -2795,7 +2797,8 @@
       "minecraft:windswept_hills": "2026-08-23 12:15:39 +0000",
       "minecraft:savanna": "2026-08-23 10:47:01 +0000",
       "minecraft:windswept_savanna": "2026-08-23 10:39:21 +0000",
-      "minecraft:plains": "2026-08-23 10:47:00 +0000"
+      "minecraft:plains": "2026-08-23 10:47:00 +0000",
+      "minecraft:deep_lukewarm_ocean": "2026-08-23 12:49:42 +0000"
     },
     "done": false
   },
@@ -4091,6 +4094,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2026-08-23 12:45:27 +0000",
       "chicken": "2026-08-23 11:20:41 +0000",
       "cooked_chicken": "2026-08-23 11:38:47 +0000",
       "honey_bottle": "2026-08-23 12:39:42 +0000",
