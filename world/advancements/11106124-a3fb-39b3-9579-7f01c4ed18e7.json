@@ -2285,6 +2285,12 @@
     },
     "done": true
   },
+  "sliceanddice:recipes/misc/slicer": {
+    "criteria": {
+      "has_tool": "2026-08-23 10:41:20 +0000"
+    },
+    "done": true
+  },
   "quark:recipes/building_blocks/building/crafting/shingles/gray_shingles_dye": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
@@ -2348,6 +2354,12 @@
   "quark:recipes/building_blocks/building/crafting/paper_lantern": {
     "criteria": {
       "test": "2026-08-23 10:28:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2026-08-23 10:38:07 +0000"
     },
     "done": true
   },
@@ -3205,10 +3217,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2026-08-23 10:37:00 +0000",
       "minecraft:forest": "2026-08-23 10:34:48 +0000",
       "minecraft:mangrove_swamp": "2026-08-23 10:28:31 +0000",
+      "minecraft:river": "2026-08-23 10:40:16 +0000",
       "minecraft:swamp": "2026-08-23 10:29:09 +0000",
-      "minecraft:birch_forest": "2026-08-23 10:34:34 +0000"
+      "minecraft:birch_forest": "2026-08-23 10:34:34 +0000",
+      "minecraft:windswept_savanna": "2026-08-23 10:39:21 +0000"
     },
     "done": false
   },

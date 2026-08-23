@@ -11442,6 +11442,12 @@
     },
     "done": true
   },
+  "create:arm_many_targets": {
+    "criteria": {
+      "0": "2026-08-23 10:21:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2026-08-23 10:28:24 +0000"
@@ -11484,12 +11490,6 @@
     },
     "done": true
   },
-  "create:arm_many_targets": {
-    "criteria": {
-      "0": "2026-08-23 10:21:23 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
       "has_sandstone": "2026-08-23 10:28:24 +0000"
@@ -11502,27 +11502,27 @@
     },
     "done": true
   },
-  "create:recipes/misc/smelting/gold_ingot_from_crushed": {
-    "criteria": {
-      "has_item": "2026-08-23 10:30:41 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2026-08-23 10:28:24 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/blasting/gold_ingot_from_crushed": {
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2026-08-23 10:28:24 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/gold_ingot_from_crushed": {
     "criteria": {
       "has_item": "2026-08-23 10:30:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/sandstone_wall": {
+  "create:recipes/misc/blasting/gold_ingot_from_crushed": {
     "criteria": {
-      "has_sandstone": "2026-08-23 10:28:24 +0000"
+      "has_item": "2026-08-23 10:30:41 +0000"
     },
     "done": true
   },

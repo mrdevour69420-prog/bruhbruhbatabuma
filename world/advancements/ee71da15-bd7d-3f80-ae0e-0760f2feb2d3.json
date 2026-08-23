@@ -2782,11 +2782,110 @@
       "minecraft:beach": "2026-08-23 10:33:12 +0000",
       "minecraft:forest": "2026-08-23 10:32:15 +0000",
       "minecraft:mangrove_swamp": "2026-08-23 10:28:16 +0000",
+      "minecraft:river": "2026-08-23 10:39:01 +0000",
       "minecraft:swamp": "2026-08-23 10:31:11 +0000",
       "minecraft:birch_forest": "2026-08-23 10:31:43 +0000",
-      "minecraft:windswept_savanna": "2026-08-23 10:34:03 +0000"
+      "minecraft:savanna": "2026-08-23 10:39:49 +0000",
+      "minecraft:windswept_savanna": "2026-08-23 10:34:03 +0000",
+      "minecraft:plains": "2026-08-23 10:39:53 +0000"
     },
     "done": false
+  },
+  "quark:recipes/decorations/world/crafting/woodsets/azalea/azalea_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/azalea_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/decorations/world/crafting/woodsets/ancient/ancient_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/coconut_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/flowering_azalea_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/decorations/world/crafting/woodsets/blossom/blossom_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-08-23 10:30:20 +0000"
+    },
+    "done": true
   },
   "brick_and_mortar:recipes/building_blocks/soul_resin_brick_slab_stonecutting": {
     "criteria": {
@@ -2803,18 +2902,6 @@
   "brick_and_mortar:recipes/building_blocks/melted_resin_brick_stairs_stonecutting": {
     "criteria": {
       "has_base": "2026-08-23 10:31:06 +0000"
-    },
-    "done": true
-  },
-  "quark:recipes/decorations/world/crafting/woodsets/azalea/azalea_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
-    },
-    "done": true
-  },
-  "ecologics:recipes/ecologics/azalea_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
     },
     "done": true
   },
@@ -2869,12 +2956,6 @@
   "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_stairs_stonecutting": {
     "criteria": {
       "has_base": "2026-08-23 10:31:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
     },
     "done": true
   },
@@ -2938,12 +3019,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
-    },
-    "done": true
-  },
   "brick_and_mortar:recipes/building_blocks/bright_soul_resin_brick_stairs_stonecutting": {
     "criteria": {
       "has_base": "2026-08-23 10:31:06 +0000"
@@ -2959,12 +3034,6 @@
   "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_slab_stonecutting": {
     "criteria": {
       "has_base": "2026-08-23 10:31:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
     },
     "done": true
   },
@@ -3040,12 +3109,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
-    },
-    "done": true
-  },
   "alloyed:recipes/alloyed.main_group/stonecutting/steel_sheet_metal_from_steel_block": {
     "criteria": {
       "has_ingredient": "2026-08-23 10:31:06 +0000"
@@ -3064,27 +3127,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
-    },
-    "done": true
-  },
   "brick_and_mortar:recipes/building_blocks/melted_resin_brick_slab": {
     "criteria": {
       "has_base": "2026-08-23 10:31:06 +0000"
-    },
-    "done": true
-  },
-  "quark:recipes/decorations/world/crafting/woodsets/ancient/ancient_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
-    },
-    "done": true
-  },
-  "ecologics:recipes/ecologics/coconut_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
     },
     "done": true
   },
@@ -3109,12 +3154,6 @@
   "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_stairs": {
     "criteria": {
       "has_base": "2026-08-23 10:31:06 +0000"
-    },
-    "done": true
-  },
-  "ecologics:recipes/ecologics/flowering_azalea_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
     },
     "done": true
   },
@@ -3157,12 +3196,6 @@
   "minecraft:recipes/building_blocks/mangrove_slab": {
     "criteria": {
       "has_planks": "2026-08-23 10:31:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
     },
     "done": true
   },
@@ -3226,12 +3259,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
-    },
-    "done": true
-  },
   "alloyed:recipes/alloyed.main_group/smithing/steel_sword": {
     "criteria": {
       "has_ingredient": "2026-08-23 10:31:06 +0000"
@@ -3247,12 +3274,6 @@
   "brick_and_mortar:recipes/building_blocks/smoked_resin_brick_wall_stonecutting": {
     "criteria": {
       "has_base": "2026-08-23 10:31:06 +0000"
-    },
-    "done": true
-  },
-  "ecologics:recipes/ecologics/walnut_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
     },
     "done": true
   },
@@ -3277,18 +3298,6 @@
   "supplementaries:recipe/turn_table": {
     "criteria": {
       "has_tag_minecraft_planks_1": "2026-08-23 10:31:06 +0000"
-    },
-    "done": true
-  },
-  "sliceanddice:recipes/misc/slicer": {
-    "criteria": {
-      "has_tool": "2026-08-23 10:32:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2026-08-23 10:32:46 +0000"
     },
     "done": true
   },
@@ -3319,12 +3328,6 @@
   "brick_and_mortar:recipes/building_blocks/melted_soul_resin_brick_wall_stonecutting": {
     "criteria": {
       "has_base": "2026-08-23 10:31:06 +0000"
-    },
-    "done": true
-  },
-  "quark:recipes/decorations/world/crafting/woodsets/blossom/blossom_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
     },
     "done": true
   },
@@ -3373,18 +3376,6 @@
   "supplementaries:recipe/pulley": {
     "criteria": {
       "has_tag_minecraft_planks_1": "2026-08-23 10:31:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2026-08-23 10:30:20 +0000"
     },
     "done": true
   },
@@ -3457,6 +3448,30 @@
   "brick_and_mortar:recipes/building_blocks/soul_resin_brick_stairs_stonecutting": {
     "criteria": {
       "has_base": "2026-08-23 10:31:06 +0000"
+    },
+    "done": true
+  },
+  "sliceanddice:recipes/misc/slicer": {
+    "criteria": {
+      "has_tool": "2026-08-23 10:32:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-08-23 10:32:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2026-08-23 10:37:52 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-08-23 10:37:52 +0000"
     },
     "done": true
   },
