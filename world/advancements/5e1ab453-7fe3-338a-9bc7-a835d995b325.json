@@ -4739,7 +4739,8 @@
       "cooked_porkchop": "2026-08-08 13:46:25 +0000",
       "cooked_chicken": "2026-08-23 10:25:43 +0000",
       "cooked_mutton": "2026-08-23 11:27:17 +0000",
-      "cooked_beef": "2026-08-23 11:31:23 +0000"
+      "cooked_beef": "2026-08-23 11:31:23 +0000",
+      "melon_slice": "2026-08-23 11:56:07 +0000"
     },
     "done": false
   },
@@ -6582,9 +6583,21 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/melon_popsicle": {
+    "criteria": {
+      "has_melon": "2026-08-23 11:55:50 +0000"
+    },
+    "done": true
+  },
   "lootr:1barrel": {
     "criteria": {
       "opened_barrel": "2026-08-23 11:28:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2026-08-23 11:55:50 +0000"
     },
     "done": true
   },
@@ -6618,6 +6631,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2026-08-23 11:55:50 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/black_stool": {
+    "criteria": {
+      "has_wool": "2026-08-23 11:55:33 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/black_sofa": {
+    "criteria": {
+      "has_wool": "2026-08-23 11:55:33 +0000"
+    },
+    "done": true
+  },
   "brick_and_mortar:recipes/kiln_firing/kiln_firing/nether_bricks_tier_2": {
     "criteria": {
       "has_input": "2026-08-23 11:51:06 +0000"
@@ -6642,6 +6673,30 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2026-08-23 11:55:50 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/black_tall_stool": {
+    "criteria": {
+      "has_wool": "2026-08-23 11:55:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2026-08-23 11:55:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2026-08-23 11:55:33 +0000"
+    },
+    "done": true
+  },
   "lootr:social": {
     "criteria": {
       "opened_barrel": "2026-08-23 11:28:34 +0000",
@@ -6661,9 +6716,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2026-08-23 11:55:50 +0000"
+    },
+    "done": true
+  },
   "lootr:1chest": {
     "criteria": {
       "opened_chest": "2026-08-23 11:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2026-08-23 11:55:33 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/black_lamp": {
+    "criteria": {
+      "has_wool": "2026-08-23 11:55:33 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/black_curtain": {
+    "criteria": {
+      "has_wool": "2026-08-23 11:55:33 +0000"
     },
     "done": true
   },
