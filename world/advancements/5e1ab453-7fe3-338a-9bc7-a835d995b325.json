@@ -2762,6 +2762,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2026-08-23 12:32:40 +0000",
+      "minecraft:flower_forest": "2026-08-23 12:37:17 +0000",
       "minecraft:beach": "2026-08-08 13:38:03 +0000",
       "minecraft:dark_forest": "2026-08-23 11:40:39 +0000",
       "minecraft:forest": "2026-08-08 13:41:48 +0000",
@@ -6818,6 +6819,12 @@
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2026-08-23 11:43:02 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/road_sign": {
+    "criteria": {
+      "structure_found": "2026-08-23 12:35:37 +0000"
     },
     "done": true
   },
