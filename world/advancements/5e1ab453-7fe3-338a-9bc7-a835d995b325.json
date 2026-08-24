@@ -2774,6 +2774,7 @@
       "minecraft:birch_forest": "2026-08-08 13:43:23 +0000",
       "minecraft:bamboo_jungle": "2026-08-23 11:55:17 +0000",
       "minecraft:windswept_savanna": "2026-08-08 13:40:56 +0000",
+      "minecraft:deep_lukewarm_ocean": "2026-08-24 07:09:16 +0000",
       "minecraft:flower_forest": "2026-08-23 12:37:17 +0000",
       "minecraft:savanna_plateau": "2026-08-24 06:22:39 +0000",
       "minecraft:beach": "2026-08-08 13:38:03 +0000",
@@ -2781,6 +2782,7 @@
       "minecraft:mangrove_swamp": "2026-08-08 13:37:37 +0000",
       "minecraft:sparse_jungle": "2026-08-23 12:13:18 +0000",
       "minecraft:river": "2026-08-08 13:40:47 +0000",
+      "minecraft:lukewarm_ocean": "2026-08-24 07:08:52 +0000",
       "minecraft:stony_shore": "2026-08-24 06:44:02 +0000",
       "minecraft:dripstone_caves": "2026-08-08 13:53:28 +0000",
       "minecraft:old_growth_birch_forest": "2026-08-08 13:53:09 +0000",
@@ -6971,6 +6973,12 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_mossy_cobblestone": "2026-08-24 06:28:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-08-24 07:09:50 +0000"
     },
     "done": true
   },

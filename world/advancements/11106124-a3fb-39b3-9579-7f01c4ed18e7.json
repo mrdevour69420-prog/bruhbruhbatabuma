@@ -3358,6 +3358,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2026-08-24 06:54:32 +0000",
+      "minecraft:phantom": "2026-08-24 07:09:38 +0000",
       "minecraft:spider": "2026-08-23 12:42:21 +0000",
       "minecraft:zombie": "2026-08-23 11:18:40 +0000"
     },
@@ -5057,6 +5058,12 @@
   "farmersdelight:recipes/cooking/pasta_with_meatballs": {
     "criteria": {
       "has_any_ingredient": "2026-08-24 06:52:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2026-08-24 07:10:19 +0000"
     },
     "done": true
   },
