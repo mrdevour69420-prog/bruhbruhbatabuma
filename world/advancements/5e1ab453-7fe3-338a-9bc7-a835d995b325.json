@@ -6580,7 +6580,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2026-08-23 10:35:05 +0000",
       "minecraft:nether_wastes": "2026-08-23 10:58:06 +0000",
-      "minecraft:basalt_deltas": "2026-08-23 11:24:21 +0000"
+      "minecraft:basalt_deltas": "2026-08-23 11:24:21 +0000",
+      "minecraft:warped_forest": "2026-08-24 07:41:39 +0000"
     },
     "done": false
   },
@@ -6971,15 +6972,51 @@
     },
     "done": true
   },
-  "ecologics:recipes/ecologics/azalea_chest_boat": {
+  "minecraft:husbandry/axolotl_in_a_bucket": {
     "criteria": {
-      "has_boat": "2026-08-24 07:21:14 +0000"
+      "axolotl_bucket": "2026-08-24 06:06:37 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/spruce_chest_boat": {
+  "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
-      "has_boat": "2026-08-24 07:21:14 +0000"
+      "has_obsidian": "2026-08-24 06:14:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-08-24 06:14:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2026-08-24 06:14:41 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/fodder": {
+    "criteria": {
+      "has_item_minecraft_hay_block_1": "2026-08-24 06:27:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2026-08-24 06:27:44 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/smoke_shell": {
+    "criteria": {
+      "has_hay_block": "2026-08-24 06:27:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2026-08-24 06:27:44 +0000"
     },
     "done": true
   },
@@ -6989,15 +7026,99 @@
     },
     "done": true
   },
-  "minecraft:adventure/sleep_in_bed": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
     "criteria": {
-      "slept_in_bed": "2026-08-24 07:09:50 +0000"
+      "has_mossy_cobblestone": "2026-08-24 06:28:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-08-24 06:28:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-08-24 06:28:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-08-24 06:28:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-08-24 06:28:36 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2026-08-24 06:40:35 +0000"
+    },
+    "done": true
+  },
+  "lootr:25loot": {
+    "criteria": {
+      "opened_25": "2026-08-24 06:41:03 +0000"
     },
     "done": true
   },
   "supplementaries:recipe/integration/planter_rich_fd": {
     "criteria": {
       "has_item_minecraft_brick_1": "2026-08-24 06:41:09 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/skillet": {
+    "criteria": {
+      "has_brick": "2026-08-24 06:41:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2026-08-24 06:41:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2026-08-24 06:41:09 +0000"
+    },
+    "done": true
+  },
+  "brick_and_mortar:recipes/decorations/kiln": {
+    "criteria": {
+      "has_brick": "2026-08-24 06:41:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2026-08-24 06:41:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-08-24 07:09:50 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/azalea_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:21:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:21:14 +0000"
     },
     "done": true
   },
@@ -7019,39 +7140,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
-    "criteria": {
-      "has_mossy_cobblestone": "2026-08-24 06:28:36 +0000"
-    },
-    "done": true
-  },
   "ecologics:recipes/ecologics/walnut_chest_boat": {
     "criteria": {
       "has_boat": "2026-08-24 07:21:14 +0000"
     },
     "done": true
   },
-  "minecraft:husbandry/axolotl_in_a_bucket": {
-    "criteria": {
-      "axolotl_bucket": "2026-08-24 06:06:37 +0000"
-    },
-    "done": true
-  },
   "ecologics:recipes/ecologics/coconut_chest_boat": {
     "criteria": {
       "has_boat": "2026-08-24 07:21:14 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/skillet": {
-    "criteria": {
-      "has_brick": "2026-08-24 06:41:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/decorated_pot_simple": {
-    "criteria": {
-      "has_brick": "2026-08-24 06:41:09 +0000"
     },
     "done": true
   },
@@ -7067,36 +7164,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/flint_and_steel": {
-    "criteria": {
-      "has_obsidian": "2026-08-24 06:14:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
-    "criteria": {
-      "has_mossy_cobblestone": "2026-08-24 06:28:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2026-08-24 06:28:36 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/place_campfire": {
-    "criteria": {
-      "campfire": "2026-08-24 06:40:35 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/fodder": {
-    "criteria": {
-      "has_item_minecraft_hay_block_1": "2026-08-24 06:27:44 +0000"
-    },
-    "done": true
-  },
   "quark:recipes/transportation/world/crafting/woodsets/blossom/blossom_chest_boat": {
     "criteria": {
       "has_boat": "2026-08-24 07:21:14 +0000"
@@ -7109,24 +7176,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/target": {
-    "criteria": {
-      "has_hay_block": "2026-08-24 06:27:44 +0000"
-    },
-    "done": true
-  },
-  "createbigcannons:recipes/misc/smoke_shell": {
-    "criteria": {
-      "has_hay_block": "2026-08-24 06:27:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
-    "criteria": {
-      "has_mossy_cobblestone": "2026-08-24 06:28:36 +0000"
-    },
-    "done": true
-  },
   "ecologics:recipes/ecologics/flowering_azalea_chest_boat": {
     "criteria": {
       "has_boat": "2026-08-24 07:21:14 +0000"
@@ -7136,30 +7185,6 @@
   "minecraft:recipes/transportation/bamboo_chest_raft": {
     "criteria": {
       "has_boat": "2026-08-24 07:21:14 +0000"
-    },
-    "done": true
-  },
-  "lootr:25loot": {
-    "criteria": {
-      "opened_25": "2026-08-24 06:41:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2026-08-24 06:14:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2026-08-24 06:28:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bricks": {
-    "criteria": {
-      "has_brick": "2026-08-24 06:41:09 +0000"
     },
     "done": true
   },
@@ -7178,30 +7203,6 @@
   "minecraft:recipes/transportation/birch_chest_boat": {
     "criteria": {
       "has_boat": "2026-08-24 07:21:14 +0000"
-    },
-    "done": true
-  },
-  "brick_and_mortar:recipes/decorations/kiln": {
-    "criteria": {
-      "has_brick": "2026-08-24 06:41:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/flower_pot": {
-    "criteria": {
-      "has_brick": "2026-08-24 06:41:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/wheat": {
-    "criteria": {
-      "has_hay_block": "2026-08-24 06:27:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/enchanting_table": {
-    "criteria": {
-      "has_obsidian": "2026-08-24 06:14:41 +0000"
     },
     "done": true
   },
