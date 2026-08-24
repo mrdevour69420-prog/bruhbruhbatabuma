@@ -4949,6 +4949,7 @@
   },
   "lootr:social": {
     "criteria": {
+      "opened_barrel": "2026-08-24 08:53:00 +0000",
       "opened_chest": "2026-08-23 12:24:33 +0000"
     },
     "done": false
@@ -5472,6 +5473,12 @@
   "createbigcannons:recipes/misc/powder_charge": {
     "criteria": {
       "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2026-08-24 08:53:00 +0000"
     },
     "done": true
   },
