@@ -9005,15 +9005,21 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/chute": {
+  "create:recipes/combat/crafting/appliances/netherite_backtank_from_netherite": {
     "criteria": {
-      "has_item": "2026-08-23 10:58:18 +0000"
+      "has_item": "2026-08-23 10:39:33 +0000"
     },
     "done": true
   },
-  "supplementaries:recipe/soap/tipped_arrow": {
+  "minecraft:adventure/shoot_arrow": {
     "criteria": {
-      "has_item_minecraft_tipped_arrow_1": "2026-08-23 11:11:46 +0000"
+      "shot_arrow": "2026-08-23 10:56:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/chute": {
+    "criteria": {
+      "has_item": "2026-08-23 10:58:18 +0000"
     },
     "done": true
   },
@@ -9026,12 +9032,6 @@
   "create:recipes/misc/crafting/kinetics/rope_pulley": {
     "criteria": {
       "has_item": "2026-08-23 10:58:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2026-08-23 10:56:35 +0000"
     },
     "done": true
   },
@@ -9158,12 +9158,6 @@
   "simulated:recipes/misc/iron_handle": {
     "criteria": {
       "has_ingredient": "2026-08-23 10:58:18 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/combat/crafting/appliances/netherite_backtank_from_netherite": {
-    "criteria": {
-      "has_item": "2026-08-23 10:39:33 +0000"
     },
     "done": true
   },
@@ -9302,6 +9296,12 @@
   "create:recipes/misc/crafting/kinetics/metal_bracket": {
     "criteria": {
       "has_item": "2026-08-23 10:58:18 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/soap/tipped_arrow": {
+    "criteria": {
+      "has_item_minecraft_tipped_arrow_1": "2026-08-23 11:11:46 +0000"
     },
     "done": true
   },
