@@ -5503,6 +5503,12 @@
     },
     "done": true
   },
+  "quark:recipes/building_blocks/world/crafting/stairs/shale_stairs": {
+    "criteria": {
+      "has_shale": "2026-08-24 08:19:16 +0000"
+    },
+    "done": true
+  },
   "lootr:pot_opened": {
     "criteria": {
       "pot_opened": "2026-08-24 07:46:15 +0000"
@@ -5560,6 +5566,12 @@
   "createbigcannons:recipes/misc/empty_powder_charge": {
     "criteria": {
       "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/slabs/shale_slab": {
+    "criteria": {
+      "has_shale": "2026-08-24 08:19:16 +0000"
     },
     "done": true
   },
