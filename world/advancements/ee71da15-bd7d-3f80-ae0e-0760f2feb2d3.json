@@ -2788,6 +2788,7 @@
       "minecraft:old_growth_birch_forest": "2026-08-23 12:25:25 +0000",
       "minecraft:ocean": "2026-08-23 12:22:28 +0000",
       "minecraft:cherry_grove": "2026-08-23 12:49:24 +0000",
+      "minecraft:sunflower_plains": "2026-08-24 07:47:52 +0000",
       "minecraft:swamp": "2026-08-23 10:31:11 +0000",
       "minecraft:meadow": "2026-08-23 12:41:45 +0000",
       "minecraft:birch_forest": "2026-08-23 10:31:43 +0000",
@@ -5440,6 +5441,132 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2026-08-23 12:44:30 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/wrought_iron_cannon_chamber": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/powder_charge": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/machine_gun_round": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/spring_launcher": {
+    "criteria": {
+      "has_item_minecraft_gunpowder_4": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/log_cannon_chamber": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/fixed_cannon_mount": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_mount": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/confetti_popper": {
+    "criteria": {
+      "has_item_minecraft_gunpowder_2": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "lootr:pot_opened": {
+    "criteria": {
+      "pot_opened": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "lootr:archaeologist": {
+    "criteria": {
+      "got_pot": "2026-08-24 07:46:15 +0000"
+    },
+    "done": false
+  },
+  "createbigcannons:recipes/misc/pair_of_cannon_wheels": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/wrought_iron_cannon_end": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_carriage": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/wrought_iron_drop_mortar_end": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/log_cannon_end": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/gunpowder_pinch": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/road_sign": {
+    "criteria": {
+      "structure_found": "2026-08-24 07:48:05 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/empty_powder_charge": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wrought_iron_drop_mortar_end_mirrored": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-08-24 07:46:15 +0000"
     },
     "done": true
   },
