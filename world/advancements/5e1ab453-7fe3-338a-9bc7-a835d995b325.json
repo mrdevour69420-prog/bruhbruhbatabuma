@@ -7214,15 +7214,51 @@
     },
     "done": true
   },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2026-08-24 08:58:34 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/stool_from_feather_block": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_2": "2026-08-24 08:58:14 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/oak_shutter": {
+    "criteria": {
+      "has_slab": "2026-08-24 08:58:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/comparator": {
     "criteria": {
       "has_quartz": "2026-08-24 07:51:44 +0000"
     },
     "done": true
   },
+  "supplementaries:recipe/jar": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_1": "2026-08-24 08:58:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2026-08-24 08:58:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2026-08-24 07:51:44 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/item_shelf": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_1": "2026-08-24 08:58:14 +0000"
     },
     "done": true
   },
@@ -7250,6 +7286,12 @@
     },
     "done": true
   },
+  "quark:recipes/building_blocks/building/crafting/vertslabs/oak_vertical_slab": {
+    "criteria": {
+      "obtained_slab": "2026-08-24 08:58:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_block": {
     "criteria": {
       "has_quartz": "2026-08-24 07:51:44 +0000"
@@ -7268,9 +7310,27 @@
     },
     "done": true
   },
+  "another_furniture:recipes/oak_bench": {
+    "criteria": {
+      "has_slab": "2026-08-24 08:58:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_basalt": {
     "criteria": {
       "has_basalt": "2026-08-24 07:51:45 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/bamboo_spikes": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_1": "2026-08-24 08:58:14 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/oak_flower_box": {
+    "criteria": {
+      "has_slab": "2026-08-24 08:58:14 +0000"
     },
     "done": true
   },
