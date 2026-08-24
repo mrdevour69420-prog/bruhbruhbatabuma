@@ -6864,7 +6864,8 @@
   "nova_structures:adventure/find_all_illager_structures": {
     "criteria": {
       "tavern_dark_oak": "2026-08-23 12:26:26 +0000",
-      "pillager_outpost": "2026-08-23 12:39:37 +0000"
+      "pillager_outpost": "2026-08-23 12:39:37 +0000",
+      "illager_camp": "2026-08-24 07:26:23 +0000"
     },
     "done": false
   },

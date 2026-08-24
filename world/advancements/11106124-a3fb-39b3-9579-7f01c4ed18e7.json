@@ -4979,6 +4979,7 @@
   },
   "lootr:social": {
     "criteria": {
+      "opened_barrel": "2026-08-24 07:24:25 +0000",
       "opened_chest": "2026-08-23 12:28:33 +0000"
     },
     "done": false
@@ -5574,6 +5575,42 @@
   "supplementaries:recipe/boat_jar": {
     "criteria": {
       "has_tag_minecraft_boats_2": "2026-08-24 07:13:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2026-08-24 07:23:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-08-24 07:23:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2026-08-24 07:23:36 +0000"
+    },
+    "done": true
+  },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2026-08-24 07:24:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2026-08-24 07:24:28 +0000"
+    },
+    "done": true
+  },
+  "lootr:25loot": {
+    "criteria": {
+      "opened_25": "2026-08-24 07:24:59 +0000"
     },
     "done": true
   },
