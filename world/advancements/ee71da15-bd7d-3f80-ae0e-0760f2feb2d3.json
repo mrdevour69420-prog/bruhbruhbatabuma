@@ -5477,6 +5477,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:woods": "2026-08-24 09:17:05 +0000"
+    },
+    "done": false
+  },
   "supplementaries:recipe/hourglass": {
     "criteria": {
       "has_item_minecraft_glass_1": "2026-08-24 09:09:24 +0000"
@@ -5528,6 +5534,12 @@
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2026-08-24 09:09:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-08-24 09:17:05 +0000"
     },
     "done": true
   },
@@ -5858,6 +5870,12 @@
   "another_furniture:recipes/oak_bench": {
     "criteria": {
       "has_slab": "2026-08-24 09:07:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2026-08-24 09:18:29 +0000"
     },
     "done": true
   },
