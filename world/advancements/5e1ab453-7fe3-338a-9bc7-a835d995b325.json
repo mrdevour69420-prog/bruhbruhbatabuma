@@ -7364,27 +7364,21 @@
     },
     "done": true
   },
-  "farmersdelight:main/plant_all_crops": {
+  "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
-      "sugar_cane": "2026-08-24 14:00:20 +0000"
-    },
-    "done": false
-  },
-  "supplementaries:recipe/altimeter": {
-    "criteria": {
-      "has_item_minecraft_redstone_2": "2026-08-24 14:02:07 +0000"
+      "has_spider_eye": "2026-08-24 13:45:32 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
-      "has_amethyst_shard": "2026-08-24 14:06:01 +0000"
+      "has_log": "2026-08-24 13:55:23 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/tinted_glass": {
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
-      "has_amethyst_shard": "2026-08-24 14:06:01 +0000"
+      "has_log": "2026-08-24 13:55:23 +0000"
     },
     "done": true
   },
@@ -7397,6 +7391,84 @@
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2026-08-24 13:57:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-08-24 13:57:43 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/oak_shelf": {
+    "criteria": {
+      "has_planks": "2026-08-24 13:57:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-08-24 13:57:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2026-08-24 13:57:43 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/oak_chair": {
+    "criteria": {
+      "has_planks": "2026-08-24 13:57:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-08-24 13:57:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-08-24 13:57:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2026-08-24 13:57:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2026-08-24 13:57:43 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/oak_table": {
+    "criteria": {
+      "has_planks": "2026-08-24 13:57:43 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/oak_window": {
+    "criteria": {
+      "has_ingredient": "2026-08-24 13:57:43 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "sugar_cane": "2026-08-24 14:00:20 +0000"
+    },
+    "done": false
+  },
+  "supplementaries:recipe/altimeter": {
+    "criteria": {
+      "has_item_minecraft_redstone_2": "2026-08-24 14:02:07 +0000"
     },
     "done": true
   },
@@ -7415,18 +7487,6 @@
   "aeronautics:recipes/misc/adjustable_burner": {
     "criteria": {
       "has_ingredient": "2026-08-24 14:02:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_trapdoor": {
-    "criteria": {
-      "has_planks": "2026-08-24 13:57:43 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/dispenser_minecart": {
-    "criteria": {
-      "has_item_minecraft_dispenser_1": "2026-08-24 14:02:56 +0000"
     },
     "done": true
   },
@@ -7454,33 +7514,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2026-08-24 13:45:32 +0000"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/oak_shelf": {
-    "criteria": {
-      "has_planks": "2026-08-24 13:57:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_pressure_plate": {
-    "criteria": {
-      "has_planks": "2026-08-24 13:57:43 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2026-08-24 14:02:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/amethyst_block": {
-    "criteria": {
-      "has_amethyst_shard": "2026-08-24 14:06:01 +0000"
     },
     "done": true
   },
@@ -7496,18 +7532,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/oak_sign": {
-    "criteria": {
-      "has_planks": "2026-08-24 13:57:43 +0000"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/oak_chair": {
-    "criteria": {
-      "has_planks": "2026-08-24 13:57:43 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2026-08-24 14:02:07 +0000"
@@ -7520,12 +7544,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/spyglass": {
-    "criteria": {
-      "has_amethyst_shard": "2026-08-24 14:06:01 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/logistics/pulse_repeater": {
     "criteria": {
       "has_item": "2026-08-24 14:02:07 +0000"
@@ -7535,12 +7553,6 @@
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2026-08-24 14:02:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_fence_gate": {
-    "criteria": {
-      "has_planks": "2026-08-24 13:57:43 +0000"
     },
     "done": true
   },
@@ -7562,51 +7574,9 @@
     },
     "done": true
   },
-  "supplementaries:recipe/crystal_display": {
-    "criteria": {
-      "has_item_minecraft_amethyst_shard_2": "2026-08-24 14:06:01 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2026-08-24 14:02:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_stairs": {
-    "criteria": {
-      "has_planks": "2026-08-24 13:57:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_fence": {
-    "criteria": {
-      "has_planks": "2026-08-24 13:57:43 +0000"
-    },
-    "done": true
-  },
-  "createbigcannons:recipes/misc/quickfiring_mechanism": {
-    "criteria": {
-      "has_lever": "2026-08-24 14:03:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_button": {
-    "criteria": {
-      "has_planks": "2026-08-24 13:57:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_planks": {
-    "criteria": {
-      "has_log": "2026-08-24 13:55:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_wood": {
-    "criteria": {
-      "has_log": "2026-08-24 13:55:23 +0000"
     },
     "done": true
   },
@@ -7616,15 +7586,45 @@
     },
     "done": true
   },
-  "another_furniture:recipes/oak_table": {
+  "supplementaries:recipe/dispenser_minecart": {
     "criteria": {
-      "has_planks": "2026-08-24 13:57:43 +0000"
+      "has_item_minecraft_dispenser_1": "2026-08-24 14:02:56 +0000"
     },
     "done": true
   },
-  "create:recipes/building_blocks/oak_window": {
+  "createbigcannons:recipes/misc/quickfiring_mechanism": {
     "criteria": {
-      "has_ingredient": "2026-08-24 13:57:43 +0000"
+      "has_lever": "2026-08-24 14:03:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2026-08-24 14:06:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2026-08-24 14:06:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2026-08-24 14:06:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2026-08-24 14:06:01 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/crystal_display": {
+    "criteria": {
+      "has_item_minecraft_amethyst_shard_2": "2026-08-24 14:06:01 +0000"
     },
     "done": true
   },
