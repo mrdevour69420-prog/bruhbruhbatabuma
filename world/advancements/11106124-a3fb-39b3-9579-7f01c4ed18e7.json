@@ -4995,9 +4995,21 @@
     },
     "done": true
   },
+  "ecologics:recipes/ecologics/azalea_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/bellows": {
     "criteria": {
       "has_item_minecraft_leather_2": "2026-08-24 06:52:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
     },
     "done": true
   },
@@ -5019,9 +5031,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/transportation/world/crafting/woodsets/ancient/ancient_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2026-08-24 06:52:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
     },
     "done": true
   },
@@ -5046,6 +5076,12 @@
   "farmersdelight:recipes/food/roasted_mutton_chops": {
     "criteria": {
       "has_mutton": "2026-08-24 06:52:42 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
     },
     "done": true
   },
@@ -5157,6 +5193,24 @@
     },
     "done": true
   },
+  "ecologics:recipes/ecologics/coconut_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/transportation/world/crafting/woodsets/azalea/azalea_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
+    },
+    "done": true
+  },
   "another_furniture:recipes/white_sofa": {
     "criteria": {
       "has_wool": "2026-08-24 06:52:42 +0000"
@@ -5253,9 +5307,21 @@
     },
     "done": true
   },
+  "quark:recipes/transportation/world/crafting/woodsets/blossom/blossom_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/buntings/bunting_white_2": {
     "criteria": {
       "has_item_minecraft_white_wool_2": "2026-08-24 06:52:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
     },
     "done": true
   },
@@ -5274,6 +5340,12 @@
   "another_furniture:recipes/white_stool": {
     "criteria": {
       "has_wool": "2026-08-24 06:52:42 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/flowering_azalea_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
     },
     "done": true
   },
@@ -5298,6 +5370,12 @@
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_sand": "2026-08-24 06:52:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
     },
     "done": true
   },
@@ -5379,6 +5457,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2026-08-24 07:01:13 +0000"
@@ -5394,6 +5478,18 @@
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2026-08-24 06:52:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-08-24 07:13:47 +0000"
     },
     "done": true
   },
@@ -5439,6 +5535,12 @@
     },
     "done": true
   },
+  "lootr:10loot": {
+    "criteria": {
+      "opened_10": "2026-08-24 07:12:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_sand": "2026-08-24 06:52:42 +0000"
@@ -5448,6 +5550,12 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2026-08-24 06:52:42 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/boat_jar": {
+    "criteria": {
+      "has_tag_minecraft_boats_2": "2026-08-24 07:13:47 +0000"
     },
     "done": true
   },
