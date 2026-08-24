@@ -6593,33 +6593,22 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/dark_oak_window": {
+  "minecraft:nether/find_fortress": {
     "criteria": {
-      "has_ingredient": "2026-08-23 12:29:37 +0000"
+      "in_fortress": "2026-08-23 11:22:16 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/melon_popsicle": {
+  "lootr:social": {
     "criteria": {
-      "has_melon": "2026-08-23 11:55:50 +0000"
+      "opened_barrel": "2026-08-23 11:28:34 +0000",
+      "opened_chest": "2026-08-23 11:28:24 +0000"
     },
-    "done": true
+    "done": false
   },
-  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+  "lootr:1chest": {
     "criteria": {
-      "has_planks": "2026-08-23 12:29:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_door": {
-    "criteria": {
-      "has_planks": "2026-08-23 12:29:37 +0000"
-    },
-    "done": true
-  },
-  "nova_structures:adventure/find_tavern": {
-    "criteria": {
-      "nova_structures:tavern_dark_oak": "2026-08-23 12:26:26 +0000"
+      "opened_chest": "2026-08-23 11:28:24 +0000"
     },
     "done": true
   },
@@ -6629,21 +6618,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+  "minecraft:recipes/brewing/cauldron": {
     "criteria": {
-      "has_stone_bricks": "2026-08-23 12:23:15 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/pedestal": {
-    "criteria": {
-      "has_item_minecraft_stone_bricks_2": "2026-08-23 12:23:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/melon": {
-    "criteria": {
-      "has_melon": "2026-08-23 11:55:50 +0000"
+      "has_water_bucket": "2026-08-23 11:43:02 +0000"
     },
     "done": true
   },
@@ -6677,72 +6654,6 @@
     },
     "done": true
   },
-  "another_furniture:recipes/dark_oak_chair": {
-    "criteria": {
-      "has_planks": "2026-08-23 12:29:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
-    "criteria": {
-      "has_planks": "2026-08-23 12:29:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_slab": {
-    "criteria": {
-      "has_planks": "2026-08-23 12:29:37 +0000"
-    },
-    "done": true
-  },
-  "nova_structures:root": {
-    "criteria": {
-      "nova_structures:adventure/find_tavern": "2026-08-23 12:26:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/glistering_melon_slice": {
-    "criteria": {
-      "has_melon": "2026-08-23 11:55:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
-    "criteria": {
-      "has_stone_bricks": "2026-08-23 12:23:15 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/stone_tile": {
-    "criteria": {
-      "has_item_minecraft_stone_bricks_1": "2026-08-23 12:23:15 +0000"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/black_stool": {
-    "criteria": {
-      "has_wool": "2026-08-23 11:55:33 +0000"
-    },
-    "done": true
-  },
-  "lootr:pot_opened": {
-    "criteria": {
-      "pot_opened": "2026-08-23 12:29:28 +0000"
-    },
-    "done": true
-  },
-  "lootr:archaeologist": {
-    "criteria": {
-      "got_pot": "2026-08-23 12:29:28 +0000"
-    },
-    "done": false
-  },
-  "another_furniture:recipes/black_sofa": {
-    "criteria": {
-      "has_wool": "2026-08-23 11:55:33 +0000"
-    },
-    "done": true
-  },
   "brick_and_mortar:recipes/kiln_firing/kiln_firing/nether_bricks_tier_2": {
     "criteria": {
       "has_input": "2026-08-23 11:51:06 +0000"
@@ -6767,21 +6678,21 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/melon_juice": {
+  "another_furniture:recipes/black_stool": {
     "criteria": {
-      "has_melon_slice": "2026-08-23 11:55:50 +0000"
+      "has_wool": "2026-08-23 11:55:33 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/black_sofa": {
+    "criteria": {
+      "has_wool": "2026-08-23 11:55:33 +0000"
     },
     "done": true
   },
   "another_furniture:recipes/black_tall_stool": {
     "criteria": {
       "has_wool": "2026-08-23 11:55:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_stairs": {
-    "criteria": {
-      "has_stone_bricks": "2026-08-23 12:23:15 +0000"
     },
     "done": true
   },
@@ -6797,52 +6708,45 @@
     },
     "done": true
   },
-  "lootr:social": {
+  "minecraft:recipes/decorations/black_banner": {
     "criteria": {
-      "opened_barrel": "2026-08-23 11:28:34 +0000",
-      "opened_chest": "2026-08-23 11:28:24 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/stone_brick_slab": {
-    "criteria": {
-      "has_stone_bricks": "2026-08-23 12:23:15 +0000"
+      "has_black_wool": "2026-08-23 11:55:33 +0000"
     },
     "done": true
   },
-  "another_furniture:recipes/dark_oak_shelf": {
+  "another_furniture:recipes/black_lamp": {
     "criteria": {
-      "has_planks": "2026-08-23 12:29:37 +0000"
+      "has_wool": "2026-08-23 11:55:33 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/cauldron": {
+  "another_furniture:recipes/black_curtain": {
     "criteria": {
-      "has_water_bucket": "2026-08-23 11:43:02 +0000"
+      "has_wool": "2026-08-23 11:55:33 +0000"
     },
     "done": true
   },
-  "supplementaries:adventure/road_sign": {
+  "farmersdelight:recipes/food/melon_popsicle": {
     "criteria": {
-      "structure_found": "2026-08-23 12:35:37 +0000"
+      "has_melon": "2026-08-23 11:55:50 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/dark_oak_sign": {
+  "minecraft:recipes/building_blocks/melon": {
     "criteria": {
-      "has_planks": "2026-08-23 12:29:37 +0000"
+      "has_melon": "2026-08-23 11:55:50 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/pink_dye_from_peony": {
+  "minecraft:recipes/brewing/glistering_melon_slice": {
     "criteria": {
-      "has_peony": "2026-08-23 12:20:40 +0000"
+      "has_melon": "2026-08-23 11:55:50 +0000"
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
+  "farmersdelight:recipes/food/melon_juice": {
     "criteria": {
-      "in_fortress": "2026-08-23 11:22:16 +0000"
+      "has_melon_slice": "2026-08-23 11:55:50 +0000"
     },
     "done": true
   },
@@ -6852,9 +6756,45 @@
     },
     "done": true
   },
-  "lootr:1chest": {
+  "minecraft:recipes/misc/pink_dye_from_peony": {
     "criteria": {
-      "opened_chest": "2026-08-23 11:28:24 +0000"
+      "has_peony": "2026-08-23 12:20:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-08-23 12:23:15 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/pedestal": {
+    "criteria": {
+      "has_item_minecraft_stone_bricks_2": "2026-08-23 12:23:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-08-23 12:23:15 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/stone_tile": {
+    "criteria": {
+      "has_item_minecraft_stone_bricks_1": "2026-08-23 12:23:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-08-23 12:23:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-08-23 12:23:15 +0000"
     },
     "done": true
   },
@@ -6864,34 +6804,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_fence_gate": {
-    "criteria": {
-      "has_planks": "2026-08-23 12:29:37 +0000"
-    },
-    "done": true
-  },
-  "nova_structures:adventure/find_all_illager_structures": {
-    "criteria": {
-      "tavern_dark_oak": "2026-08-23 12:26:26 +0000",
-      "pillager_outpost": "2026-08-23 12:39:37 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/redstone/dark_oak_trapdoor": {
-    "criteria": {
-      "has_planks": "2026-08-23 12:29:37 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cracked_stone_bricks": {
     "criteria": {
       "has_stone_bricks": "2026-08-23 12:23:15 +0000"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/dark_oak_table": {
-    "criteria": {
-      "has_planks": "2026-08-23 12:29:37 +0000"
     },
     "done": true
   },
@@ -6907,27 +6822,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_button": {
-    "criteria": {
-      "has_planks": "2026-08-23 12:29:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_banner": {
-    "criteria": {
-      "has_black_wool": "2026-08-23 11:55:33 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2026-08-23 12:23:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dark_oak_fence": {
-    "criteria": {
-      "has_planks": "2026-08-23 12:29:37 +0000"
     },
     "done": true
   },
@@ -6943,9 +6840,118 @@
     },
     "done": true
   },
-  "another_furniture:recipes/black_lamp": {
+  "nova_structures:adventure/find_tavern": {
     "criteria": {
-      "has_wool": "2026-08-23 11:55:33 +0000"
+      "nova_structures:tavern_dark_oak": "2026-08-23 12:26:26 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:root": {
+    "criteria": {
+      "nova_structures:adventure/find_tavern": "2026-08-23 12:26:26 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_all_illager_structures": {
+    "criteria": {
+      "tavern_dark_oak": "2026-08-23 12:26:26 +0000",
+      "pillager_outpost": "2026-08-23 12:39:37 +0000"
+    },
+    "done": false
+  },
+  "lootr:pot_opened": {
+    "criteria": {
+      "pot_opened": "2026-08-23 12:29:28 +0000"
+    },
+    "done": true
+  },
+  "lootr:archaeologist": {
+    "criteria": {
+      "got_pot": "2026-08-23 12:29:28 +0000"
+    },
+    "done": false
+  },
+  "create:recipes/building_blocks/dark_oak_window": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 12:29:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-08-23 12:29:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2026-08-23 12:29:37 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/dark_oak_chair": {
+    "criteria": {
+      "has_planks": "2026-08-23 12:29:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-08-23 12:29:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2026-08-23 12:29:37 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/dark_oak_shelf": {
+    "criteria": {
+      "has_planks": "2026-08-23 12:29:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2026-08-23 12:29:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-08-23 12:29:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-08-23 12:29:37 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/dark_oak_table": {
+    "criteria": {
+      "has_planks": "2026-08-23 12:29:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2026-08-23 12:29:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2026-08-23 12:29:37 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/road_sign": {
+    "criteria": {
+      "structure_found": "2026-08-23 12:35:37 +0000"
     },
     "done": true
   },
@@ -6955,9 +6961,9 @@
     },
     "done": true
   },
-  "another_furniture:recipes/black_curtain": {
+  "minecraft:husbandry/axolotl_in_a_bucket": {
     "criteria": {
-      "has_wool": "2026-08-23 11:55:33 +0000"
+      "axolotl_bucket": "2026-08-24 06:06:37 +0000"
     },
     "done": true
   },
