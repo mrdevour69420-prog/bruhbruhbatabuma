@@ -7628,6 +7628,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template": {
+    "criteria": {
+      "has_rib_armor_trim_smithing_template": "2026-08-24 14:54:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-08-24 14:54:36 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/key": {
     "criteria": {
       "has_tag_c_nuggets_gold_2": "2026-08-24 14:40:17 +0000"
