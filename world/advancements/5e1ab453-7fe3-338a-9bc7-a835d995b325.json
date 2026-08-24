@@ -7376,6 +7376,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2026-08-24 14:06:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2026-08-24 14:06:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2026-08-24 13:57:43 +0000"
@@ -7466,6 +7478,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2026-08-24 14:06:01 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/materials/rose_quartz": {
     "criteria": {
       "has_item": "2026-08-24 14:02:07 +0000"
@@ -7499,6 +7517,12 @@
   "create:recipes/misc/crafting/logistics/pulse_extender": {
     "criteria": {
       "has_item": "2026-08-24 14:02:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2026-08-24 14:06:01 +0000"
     },
     "done": true
   },
@@ -7538,6 +7562,12 @@
     },
     "done": true
   },
+  "supplementaries:recipe/crystal_display": {
+    "criteria": {
+      "has_item_minecraft_amethyst_shard_2": "2026-08-24 14:06:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2026-08-24 14:02:07 +0000"
@@ -7553,6 +7583,12 @@
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2026-08-24 13:57:43 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/quickfiring_mechanism": {
+    "criteria": {
+      "has_lever": "2026-08-24 14:03:37 +0000"
     },
     "done": true
   },

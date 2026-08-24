@@ -6029,6 +6029,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2026-08-24 14:07:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2026-08-24 14:07:44 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/polished_cut_tuff_wall_from_stone_types_tuff_stonecutting": {
     "criteria": {
       "has_stone_types_tuff": "2026-08-24 13:57:57 +0000"
@@ -6161,6 +6173,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2026-08-24 14:07:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2026-08-24 13:57:57 +0000"
@@ -6212,6 +6230,12 @@
   "create:recipes/building_blocks/polished_cut_tuff_slab_from_stone_types_tuff_stonecutting": {
     "criteria": {
       "has_stone_types_tuff": "2026-08-24 13:57:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2026-08-24 14:07:44 +0000"
     },
     "done": true
   },
@@ -6290,6 +6314,12 @@
   "simulated:recipes/misc/redstone_accumulator": {
     "criteria": {
       "has_ingredient": "2026-08-24 13:55:23 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/crystal_display": {
+    "criteria": {
+      "has_item_minecraft_amethyst_shard_2": "2026-08-24 14:07:44 +0000"
     },
     "done": true
   },
