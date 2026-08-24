@@ -5465,6 +5465,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2026-08-24 09:01:38 +0000"
+    },
+    "done": true
+  },
   "createbigcannons:recipes/misc/wrought_iron_cannon_chamber": {
     "criteria": {
       "has_gunpowder": "2026-08-24 07:46:15 +0000"

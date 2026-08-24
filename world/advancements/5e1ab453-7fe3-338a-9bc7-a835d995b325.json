@@ -7220,6 +7220,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2026-08-24 09:01:51 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/stool_from_feather_block": {
     "criteria": {
       "has_tag_minecraft_wooden_slabs_2": "2026-08-24 08:58:14 +0000"
