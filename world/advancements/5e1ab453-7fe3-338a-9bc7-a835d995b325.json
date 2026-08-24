@@ -5239,6 +5239,7 @@
       "minecraft:pillager": "2026-08-23 12:26:36 +0000",
       "minecraft:blaze": "2026-08-23 11:26:43 +0000",
       "minecraft:skeleton": "2026-08-08 14:00:07 +0000",
+      "minecraft:piglin": "2026-08-24 07:59:36 +0000",
       "minecraft:vindicator": "2026-08-23 12:28:31 +0000",
       "minecraft:spider": "2026-08-08 14:08:19 +0000",
       "minecraft:wither_skeleton": "2026-08-23 11:27:27 +0000",
@@ -7288,6 +7289,12 @@
   "createbigcannons:recipes/misc/proximity_fuze": {
     "criteria": {
       "has_quartz": "2026-08-24 07:51:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2026-08-24 07:59:49 +0000"
     },
     "done": true
   },

@@ -2782,6 +2782,7 @@
       "minecraft:cold_ocean": "2026-08-23 12:35:33 +0000",
       "minecraft:flower_forest": "2026-08-23 12:33:54 +0000",
       "minecraft:beach": "2026-08-23 10:33:12 +0000",
+      "minecraft:dark_forest": "2026-08-24 07:55:16 +0000",
       "minecraft:forest": "2026-08-23 10:32:15 +0000",
       "minecraft:taiga": "2026-08-24 07:51:10 +0000",
       "minecraft:mangrove_swamp": "2026-08-23 10:28:16 +0000",
@@ -3476,6 +3477,7 @@
     "criteria": {
       "cooked_porkchop": "2026-08-23 12:33:06 +0000",
       "cooked_chicken": "2026-08-23 11:31:09 +0000",
+      "cooked_mutton": "2026-08-24 07:57:46 +0000",
       "cooked_beef": "2026-08-23 10:37:52 +0000"
     },
     "done": false
