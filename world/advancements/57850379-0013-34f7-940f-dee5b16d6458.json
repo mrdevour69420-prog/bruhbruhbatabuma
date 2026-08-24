@@ -9305,12 +9305,6 @@
     },
     "done": true
   },
-  "supplementaries:recipe/stonecutting/stone_tile_slab": {
-    "criteria": {
-      "has_item_supplementaries_stone_tile_1": "2026-08-24 06:25:52 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_iron_block": "2026-08-24 06:17:13 +0000"
@@ -9320,6 +9314,18 @@
   "supplementaries:recipe/cannonball": {
     "criteria": {
       "has_item_minecraft_iron_block_1": "2026-08-24 06:17:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-08-24 06:17:13 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/stonecutting/riveted_locometal": {
+    "criteria": {
+      "has_item": "2026-08-24 06:17:13 +0000"
     },
     "done": true
   },
@@ -9335,15 +9341,33 @@
     },
     "done": true
   },
-  "supplementaries:recipe/stonecutting/stone_tile_wall_from_bricks": {
+  "offroad:recipes/misc/large_tire": {
+    "criteria": {
+      "has_ingredient": "2026-08-24 06:17:40 +0000"
+    },
+    "done": true
+  },
+  "offroad:recipes/misc/tire": {
+    "criteria": {
+      "has_ingredient": "2026-08-24 06:17:40 +0000"
+    },
+    "done": true
+  },
+  "offroad:recipes/misc/small_tire": {
+    "criteria": {
+      "has_ingredient": "2026-08-24 06:17:40 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/stonecutting/stone_tile_slab": {
     "criteria": {
       "has_item_supplementaries_stone_tile_1": "2026-08-24 06:25:52 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/anvil": {
+  "supplementaries:recipe/stonecutting/stone_tile_wall_from_bricks": {
     "criteria": {
-      "has_iron_block": "2026-08-24 06:17:13 +0000"
+      "has_item_supplementaries_stone_tile_1": "2026-08-24 06:25:52 +0000"
     },
     "done": true
   },
@@ -9353,21 +9377,9 @@
     },
     "done": true
   },
-  "offroad:recipes/misc/large_tire": {
-    "criteria": {
-      "has_ingredient": "2026-08-24 06:17:40 +0000"
-    },
-    "done": true
-  },
   "supplementaries:recipe/stone_tile_stairs": {
     "criteria": {
       "has_item_supplementaries_stone_tile_1": "2026-08-24 06:25:52 +0000"
-    },
-    "done": true
-  },
-  "offroad:recipes/misc/tire": {
-    "criteria": {
-      "has_ingredient": "2026-08-24 06:17:40 +0000"
     },
     "done": true
   },
@@ -9380,18 +9392,6 @@
   "supplementaries:recipe/stone_tile_slab": {
     "criteria": {
       "has_item_supplementaries_stone_tile_1": "2026-08-24 06:25:52 +0000"
-    },
-    "done": true
-  },
-  "offroad:recipes/misc/small_tire": {
-    "criteria": {
-      "has_ingredient": "2026-08-24 06:17:40 +0000"
-    },
-    "done": true
-  },
-  "railways:recipes/misc/stonecutting/riveted_locometal": {
-    "criteria": {
-      "has_item": "2026-08-24 06:17:13 +0000"
     },
     "done": true
   },
