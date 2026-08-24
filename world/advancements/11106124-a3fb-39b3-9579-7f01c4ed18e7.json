@@ -5780,6 +5780,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2026-08-24 08:01:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
       "has_netherrack": "2026-08-24 07:59:52 +0000"
@@ -5843,6 +5849,18 @@
   "brick_and_mortar:recipes/kiln_firing/kiln_firing/nether_bricks_tier_1": {
     "criteria": {
       "has_input": "2026-08-24 07:59:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-08-24 08:01:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2026-08-24 08:01:48 +0000"
     },
     "done": true
   },
