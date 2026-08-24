@@ -7214,60 +7214,6 @@
     },
     "done": true
   },
-  "minecraft:husbandry/allay_deliver_item_to_player": {
-    "criteria": {
-      "allay_deliver_item_to_player": "2026-08-24 08:58:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2026-08-24 09:01:51 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/stool_from_feather_block": {
-    "criteria": {
-      "has_tag_minecraft_wooden_slabs_2": "2026-08-24 08:58:14 +0000"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/oak_shutter": {
-    "criteria": {
-      "has_slab": "2026-08-24 08:58:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/comparator": {
-    "criteria": {
-      "has_quartz": "2026-08-24 07:51:44 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/jar": {
-    "criteria": {
-      "has_tag_minecraft_wooden_slabs_1": "2026-08-24 08:58:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/composter": {
-    "criteria": {
-      "has_wood_slab": "2026-08-24 08:58:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/daylight_detector": {
-    "criteria": {
-      "has_quartz": "2026-08-24 07:51:44 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/item_shelf": {
-    "criteria": {
-      "has_tag_minecraft_wooden_slabs_1": "2026-08-24 08:58:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2026-08-24 07:49:57 +0000"
@@ -7277,6 +7223,18 @@
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2026-08-24 07:49:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2026-08-24 07:51:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2026-08-24 07:51:44 +0000"
     },
     "done": true
   },
@@ -7292,13 +7250,25 @@
     },
     "done": true
   },
-  "quark:recipes/building_blocks/building/crafting/vertslabs/oak_vertical_slab": {
+  "minecraft:recipes/building_blocks/quartz_block": {
     "criteria": {
-      "obtained_slab": "2026-08-24 08:58:14 +0000"
+      "has_quartz": "2026-08-24 07:51:44 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/quartz_block": {
+  "supplementaries:recipe/blackboard": {
+    "criteria": {
+      "has_tag_supplementaries_blackboard_white_3": "2026-08-24 07:51:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2026-08-24 07:51:44 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/proximity_fuze": {
     "criteria": {
       "has_quartz": "2026-08-24 07:51:44 +0000"
     },
@@ -7310,21 +7280,63 @@
     },
     "done": true
   },
-  "supplementaries:recipe/blackboard": {
+  "minecraft:recipes/building_blocks/polished_basalt": {
     "criteria": {
-      "has_tag_supplementaries_blackboard_white_3": "2026-08-24 07:51:44 +0000"
+      "has_basalt": "2026-08-24 07:51:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2026-08-24 07:51:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2026-08-24 07:59:49 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/stool_from_feather_block": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_2": "2026-08-24 08:58:14 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/oak_shutter": {
+    "criteria": {
+      "has_slab": "2026-08-24 08:58:14 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/jar": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_1": "2026-08-24 08:58:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2026-08-24 08:58:14 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/item_shelf": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_1": "2026-08-24 08:58:14 +0000"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/vertslabs/oak_vertical_slab": {
+    "criteria": {
+      "obtained_slab": "2026-08-24 08:58:14 +0000"
     },
     "done": true
   },
   "another_furniture:recipes/oak_bench": {
     "criteria": {
       "has_slab": "2026-08-24 08:58:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_basalt": {
-    "criteria": {
-      "has_basalt": "2026-08-24 07:51:45 +0000"
     },
     "done": true
   },
@@ -7340,27 +7352,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/observer": {
+  "minecraft:husbandry/allay_deliver_item_to_player": {
     "criteria": {
-      "has_quartz": "2026-08-24 07:51:44 +0000"
+      "allay_deliver_item_to_player": "2026-08-24 08:58:34 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+  "minecraft:adventure/voluntary_exile": {
     "criteria": {
-      "has_basalt": "2026-08-24 07:51:45 +0000"
+      "voluntary_exile": "2026-08-24 09:01:51 +0000"
     },
     "done": true
   },
-  "createbigcannons:recipes/misc/proximity_fuze": {
+  "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
-      "has_quartz": "2026-08-24 07:51:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/fast_travel": {
-    "criteria": {
-      "travelled": "2026-08-24 07:59:49 +0000"
+      "has_spider_eye": "2026-08-24 13:45:32 +0000"
     },
     "done": true
   },
