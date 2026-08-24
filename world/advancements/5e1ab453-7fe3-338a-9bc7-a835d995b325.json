@@ -7628,5 +7628,29 @@
     },
     "done": true
   },
+  "supplementaries:recipe/key": {
+    "criteria": {
+      "has_tag_c_nuggets_gold_2": "2026-08-24 14:40:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2026-08-24 14:40:17 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/gold_gate": {
+    "criteria": {
+      "has_tag_c_nuggets_gold_1": "2026-08-24 14:40:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2026-08-24 14:40:17 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
