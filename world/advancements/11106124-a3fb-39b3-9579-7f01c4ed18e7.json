@@ -5774,17 +5774,29 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2026-08-24 07:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-08-24 07:57:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-08-24 07:57:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2026-08-24 07:57:43 +0000"
     },
     "done": false
-  },
-  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
-    "criteria": {
-      "has_ancient_debris": "2026-08-24 08:01:48 +0000"
-    },
-    "done": true
   },
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
@@ -5816,18 +5828,6 @@
     },
     "done": true
   },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2026-08-24 07:57:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/smoker": {
-    "criteria": {
-      "has_furnace": "2026-08-24 07:56:58 +0000"
-    },
-    "done": true
-  },
   "brick_and_mortar:recipes/kiln_firing/kiln_firing/nether_bricks_tier_2": {
     "criteria": {
       "has_input": "2026-08-24 07:59:52 +0000"
@@ -5852,6 +5852,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2026-08-24 08:01:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
       "ancient_debris": "2026-08-24 08:01:48 +0000"
@@ -5861,12 +5867,6 @@
   "minecraft:recipes/misc/netherite_scrap": {
     "criteria": {
       "has_ancient_debris": "2026-08-24 08:01:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2026-08-24 07:57:35 +0000"
     },
     "done": true
   },
