@@ -5239,14 +5239,15 @@
       "minecraft:pillager": "2026-08-23 12:26:36 +0000",
       "minecraft:blaze": "2026-08-23 11:26:43 +0000",
       "minecraft:skeleton": "2026-08-08 14:00:07 +0000",
+      "minecraft:zombified_piglin": "2026-08-26 09:28:26 +0000",
+      "minecraft:wither_skeleton": "2026-08-23 11:27:27 +0000",
+      "minecraft:bogged": "2026-08-23 12:24:53 +0000",
       "minecraft:piglin": "2026-08-24 07:59:36 +0000",
       "minecraft:vindicator": "2026-08-23 12:28:31 +0000",
       "minecraft:spider": "2026-08-08 14:08:19 +0000",
-      "minecraft:wither_skeleton": "2026-08-23 11:27:27 +0000",
       "minecraft:zombie": "2026-08-08 13:58:46 +0000",
       "minecraft:creeper": "2026-08-08 13:55:14 +0000",
       "minecraft:drowned": "2026-08-08 13:50:45 +0000",
-      "minecraft:bogged": "2026-08-23 12:24:53 +0000",
       "minecraft:slime": "2026-08-08 14:08:27 +0000"
     },
     "done": false
@@ -7667,6 +7668,18 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2026-08-24 14:59:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2026-08-26 09:30:01 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lumisene_bottle": {
+    "criteria": {
+      "has_item_minecraft_glass_bottle_2": "2026-08-26 09:28:40 +0000"
     },
     "done": true
   },
